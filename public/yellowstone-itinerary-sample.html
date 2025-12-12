@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4-5 Day Yellowstone National Park Itinerary | Off-Season Guide</title>
+    <meta name="description" content="Complete 4-5 day Yellowstone National Park itinerary for September, October, April, May. Off-season travel guide with daily activities, costs, and booking links.">
+    
+    <style>
+        /* CSS Variables */
+        :root {
+            --primary-green: #059669;
+            --light-green: #22c55e;
+            --dark-green: #15803d;
+            --accent-blue: #0ea5e9;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-600: #4b5563;
+            --gray-800: #1f2937;
+            --white: #ffffff;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --border-radius: 0.75rem;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--gray-800);
+            background-color: var(--gray-50);
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary-green), var(--light-green));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: var(--shadow);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .header .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Overview Section */
+        .overview {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .trip-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: 1.5rem;
+            background: var(--gray-50);
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--primary-green);
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-green);
+        }
+
+        .stat-label {
+            color: var(--gray-600);
+            font-weight: 500;
+        }
+
+        /* Cost Breakdown */
+        .cost-breakdown {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .cost-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+
+        .cost-table th,
+        .cost-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--gray-100);
+        }
+
+        .cost-table th {
+            background: var(--primary-green);
+            color: white;
+            font-weight: 600;
+        }
+
+        .cost-table .total-row {
+            background: var(--gray-50);
+            font-weight: 600;
+        }
+
+        /* Day Section */
+        .day-section {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+
+        .day-header {
+            background: linear-gradient(135deg, var(--primary-green), var(--light-green));
+            color: white;
+            padding: 1.5rem;
+        }
+
+        .day-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .day-subtitle {
+            opacity: 0.9;
+            margin-top: 0.5rem;
+        }
+
+        .day-content {
+            padding: 2rem;
+        }
+
+        .activity-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .activity-card {
+            border: 2px solid var(--gray-100);
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            transition: var(--transition);
+        }
+
+        .activity-card:hover {
+            border-color: var(--primary-green);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+
+        .activity-header {
+            background: var(--gray-50);
+            padding: 1rem;
+            border-bottom: 1px solid var(--gray-100);
+        }
+
+        .activity-time {
+            color: var(--primary-green);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .activity-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 0.5rem 0;
+        }
+
+        .activity-content {
+            padding: 1rem;
+        }
+
+        .activity-image {
+            width: 100%;
+            height: 150px;
+            background: var(--gray-100);
+            border: 2px dashed var(--gray-600);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gray-600);
+            margin: 1rem 0;
+            border-radius: 0.5rem;
+        }
+
+        .booking-section {
+            background: var(--gray-50);
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            margin: 1.5rem 0;
+        }
+
+        .booking-links {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .book-btn {
+            display: inline-block;
+            background: var(--accent-blue);
+            color: white;
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            transition: var(--transition);
+            font-size: 0.9rem;
+        }
+
+        .book-btn:hover {
+            background: #0284c7;
+            transform: translateY(-1px);
+        }
+
+        .book-btn.primary {
+            background: var(--primary-green);
+        }
+
+        .book-btn.primary:hover {
+            background: var(--dark-green);
+        }
+
+        /* Map Section */
+        .map-section {
+            background: var(--gray-100);
+            border: 2px dashed var(--gray-600);
+            border-radius: var(--border-radius);
+            padding: 3rem;
+            text-align: center;
+            color: var(--gray-600);
+            margin: 1.5rem 0;
+        }
+
+        /* Tips Section */
+        .tips-section {
+            background: #ecfdf5;
+            border-left: 4px solid var(--primary-green);
+            padding: 1.5rem;
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+            margin: 1.5rem 0;
+        }
+
+        .tips-section h4 {
+            color: var(--dark-green);
+            margin-bottom: 1rem;
+        }
+
+        .tips-list {
+            list-style: none;
+        }
+
+        .tips-list li {
+            margin-bottom: 0.75rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .tips-list li::before {
+            content: '💡';
+            position: absolute;
+            left: 0;
+        }
+
+        /* Emergency Info */
+        .emergency-info {
+            background: #fef2f2;
+            border-left: 4px solid #ef4444;
+            padding: 1.5rem;
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+            margin: 1.5rem 0;
+        }
+
+        .emergency-info h4 {
+            color: #dc2626;
+            margin-bottom: 1rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+
+            .trip-stats {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .activity-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .booking-links {
+                flex-direction: column;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            .booking-section {
+                display: none;
+            }
+            
+            .day-section {
+                break-inside: avoid;
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>4-5 Day Yellowstone National Park Itinerary</h1>
+        <p class="subtitle">Complete off-season guide for September, October, April, May • Perfect for first-time visitors</p>
+    </header>
+
+    <div class="container">
+        <!-- Trip Overview -->
+        <section class="overview">
+            <h2>Trip Overview</h2>
+            <p>Experience the best of Yellowstone National Park during the ideal off-season months. This itinerary covers all major highlights while avoiding summer crowds and taking advantage of lower prices.</p>
+            
+            <div class="trip-stats">
+                <div class="stat-card">
+                    <div class="stat-number">4-5</div>
+                    <div class="stat-label">Days</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">$800-1200</div>
+                    <div class="stat-label">Per Person</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Major Attractions</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">200+</div>
+                    <div class="stat-label">Miles Driving</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cost Breakdown -->
+        <section class="cost-breakdown">
+            <h2>Cost Breakdown (Per Person)</h2>
+            <p>Budget estimates for off-season travel (September, October, April, May):</p>
+            
+            <table class="cost-table">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Budget Option</th>
+                        <th>Mid-Range Option</th>
+                        <th>Luxury Option</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Accommodation (4 nights)</td>
+                        <td>$320 (Camping/Budget Hotel)</td>
+                        <td>$480 (Park Lodge)</td>
+                        <td>$800 (Premium Lodge)</td>
+                    </tr>
+                    <tr>
+                        <td>Park Entrance Fee</td>
+                        <td>$35 (7-day pass)</td>
+                        <td>$35 (7-day pass)</td>
+                        <td>$35 (7-day pass)</td>
+                    </tr>
+                    <tr>
+                        <td>Transportation</td>
+                        <td>$200 (Gas + Parking)</td>
+                        <td>$200 (Gas + Parking)</td>
+                        <td>$200 (Gas + Parking)</td>
+                    </tr>
+                    <tr>
+                        <td>Food</td>
+                        <td>$160 (Groceries/Basic)</td>
+                        <td>$240 (Mix of restaurant/grocery)</td>
+                        <td>$400 (Restaurants)</td>
+                    </tr>
+                    <tr>
+                        <td>Activities & Gear</td>
+                        <td>$85 (Basic gear rental)</td>
+                        <td>$145 (Tours + gear)</td>
+                        <td>$265 (Premium tours + gear)</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td><strong>Total</strong></td>
+                        <td><strong>$800</strong></td>
+                        <td><strong>$1,100</strong></td>
+                        <td><strong>$1,700</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Day 1 -->
+        <section class="day-section">
+            <div class="day-header">
+                <h2 class="day-title">Day 1: Lower Loop Introduction</h2>
+                <p class="day-subtitle">Old Faithful, Grand Prismatic, and Yellowstone Lake</p>
+            </div>
+            <div class="day-content">
+                <div class="activity-grid">
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <div class="activity-time">9:00 AM - 10:30 AM</div>
+                            <h3 class="activity-title">Old Faithful Geyser</h3>
+                        </div>
+                        <div class="activity-content">
+                            <p>Start your Yellowstone adventure at the park's most famous geyser. Erupts approximately every 90 minutes. Visit the visitor center for prediction times.</p>
+                            <div class="activity-image">[Photo: Old Faithful eruption with fall colors]</div>
+                            <p><strong>Off-season advantage:</strong> Virtually no crowds at viewing areas!</p>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <div class="activity-time">11:00 AM - 12:30 PM</div>
+                            <h3 class="activity-title">Grand Prismatic Spring</h3>
+                        </div>
+                        <div class="activity-content">
+                            <p>America's largest hot spring with stunning rainbow colors. Take the boardwalk around the spring and hike to the overlook for aerial views.</p>
+                            <div class="activity-image">[Photo: Grand Prismatic Spring aerial view]</div>
+                            <p><strong>Pro tip:</strong> Steam is more visible in cool off-season air!</p>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <div class="activity-time">2:00 PM - 4:00 PM</div>
+                            <h3 class="activity-title">Yellowstone Lake</h3>
+                        </div>
+                        <div class="activity-content">
+                            <p>Visit the largest high-elevation lake in North America. Drive along the shoreline and stop at West Thumb Geyser Basin.</p>
+                            <div class="activity-image">[Photo: Yellowstone Lake with mountains]</div>
+                            <p><strong>Wildlife watch:</strong> Look for trumpeter swans and osprey.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="booking-section">
+                    <h4>Day 1 Accommodations</h4>
+                    <p>Book your first night near Old Faithful or Grant Village:</p>
+                    <div class="booking-links">
+                        <a href="#" class="book-btn primary">Old Faithful Inn (Premium)</a>
+                        <a href="#" class="book-btn">Snow Lodge (Mid-range)</a>
+                        <a href="#" class="book-btn">Grant Village (Budget-friendly)</a>
+                    </div>
+                </div>
+
+                <div class="tips-section">
+                    <h4>Day 1 Tips</h4>
+                    <ul class="tips-list">
+                        <li>Arrive early (by 8 AM) to get parking at popular spots</li>
+                        <li>Download the NPS Yellowstone app for geyser predictions</li>
+                        <li>Bring layers - temperatures can vary 40°F throughout the day</li>
+                        <li>Pack lunch or book early at Old Faithful Inn dining room</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Day 2 -->
+        <section class="day-section">
+            <div class="day-header">
+                <h2 class="day-title">Day 2: Grand Canyon of Yellowstone</h2>
+                <p class="day-subtitle">Artist Point, Lower Falls, and Uncle Tom's Trail</p>
+            </div>
+            <div class="day-content">
+                <div class="activity-grid">
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <div class="activity-time">8:00 AM - 10:00 AM</div>
+                            <h3 class="activity-title">Artist Point</h3>
+                        </div>
+                        <div class="activity-content">
+                            <p>The most famous viewpoint in Yellowstone. Marvel at the Lower Falls of the Yellowstone River plunging 308 feet into the colorful canyon.</p>
+                            <div class="activity-image">[Photo: Lower Falls from Artist Point in fall]</div>
+                            <p><strong>Photography tip:</strong> Best light is morning for falls photography.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <div class="activity-time">10:30 AM - 12:00 PM</div>
+                            <h3 class="activity-title">Uncle Tom's Trail</h3>
+                        </div>
+                        <div class="activity-content">
+                            <p>Steep trail with 328 metal steps leading to a platform with spectacular views of Lower Falls. Moderate difficulty.</p>
+                            <div class="activity-image">[Photo: Uncle Tom's Trail viewpoint]</div>
+                            <p><strong>Difficulty:</strong> Moderate - stairs can be icy in off-season.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <div class="activity-time">2:00 PM - 4:00 PM</div>
+                            <h3 class="activity-title">Hayden Valley Wildlife</h3>
+                        </div>
+                        <div class="activity-content">
+                            <p>Prime wildlife viewing area. Look for bison herds, elk, and potentially bears. Bring binoculars and be patient.</p>
+                            <div class="activity-image">[Photo: Bison herd in Hayden Valley]</div>
+                            <p><strong>Best time:</strong> Early morning and late afternoon for wildlife activity.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map-section">
+                    [Interactive Google Map showing Day 2 route: Old Faithful → Grand Canyon → Hayden Valley]<br>
+                    <em>Driving distance: ~45 miles, 1.5 hours total</em>
+                </div>
+
+                <div class="tips-section">
+                    <h4>Day 2 Tips</h4>
+                    <ul class="tips-list">
+                        <li>Check trail conditions - some may be icy in off-season</li>
+                        <li>Bring bear spray when hiking any trails</li>
+                        <li>Pack warm clothes for early morning wildlife viewing</li>
+                        <li>Download offline maps - cell service is limited</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Day 3 -->
+        <section class="day-section">
+            <div class="day-header">
+                <h2 class="day-title">Day 3: Mammoth and Tower-Roosevelt</h2>
+                <p class="day-subtitle">Hot springs terraces and Lamar Valley wildlife</p>
+            </div>
+            <div class="day-content">
+                <div class="activity-grid">
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <div class="activity-time">8:00 AM - 10:00 AM</div>
+                            <h3 class="activity-title">Mammoth Hot Springs</h3>
+                        </div>
+                        <div class="activity-content">
+                            <p>Explore the limestone terraces formed by hot springs. Walk both the Upper and Lower Terrace boardwalks for different perspectives.</p>
+                            <div class="activity-image">[Photo: Mammoth Hot Springs terraces in autumn]</div>
+                            <p><strong>Unique feature:</strong> Terraces change daily as mineral deposits shift.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <div class="activity-time">11:00 AM - 1:00 PM</div>
+                            <h3 class="activity-title">Lamar Valley</h3>
+                        </div>
+                        <div class="activity-content">
+                            <p>Known as "America's Serengeti" for its abundant wildlife. Drive slowly and scan for wolves, bears, elk, and bison.</p>
+                            <div class="activity-image">[Photo: Wolf pack in Lamar Valley]</div>
+                            <p><strong>Wildlife tip:</strong> Bring binoculars or spotting scope. Rangers often set up scopes for public use.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <div class="activity-time">2:30 PM - 4:00 PM</div>
+                            <h3 class="activity-title">Tower Fall</h3>
+                        </div>
+                        <div class="activity-content">
+                            <p>132-foot waterfall surrounded by volcanic pinnacles. Easy walk to viewpoint, or hike down for closer views.</p>
+                            <div class="activity-image">[Photo: Tower Fall with volcanic rock formations]</div>
+                            <p><strong>Historical note:</strong> Named by the Washburn Expedition in 1870.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="booking-section">
+                    <h4>Day 3 Activities & Tours</h4>
+                    <p>Enhance your wildlife viewing experience:</p>
+                    <div class="booking-links">
+                        <a href="#" class="book-btn primary">Wildlife Photography Tour</a>
+                        <a href="#" class="book-btn">Rent Binoculars/Spotting Scope</a>
+                        <a href="#" class="book-btn">Wolf Watching Tour</a>
+                    </div>
+                </div>
+
+                <div class="emergency-info">
+                    <h4>Wildlife Safety Reminder</h4>
+                    <p><strong>Stay at least 100 yards from bears and wolves, 25 yards from elk and bison.</strong> Off-season wildlife can be more unpredictable as they prepare for winter or emerge from winter dormancy.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Day 4 -->
+        <section class="day-section">
+            <div class="day-header">
+                <h2 class="day-title">Day 4: Hidden Gems and Favorites</h2>
+                <p class="day-subtitle">Revisit favorites and explore lesser-known spots</p>
+            </div>
+            <div class="day-content">
+                <div class="activity-grid">
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <div class="activity-time">9:00 AM - 11:00 AM</div>
+                            <h3 class="activity-title">Norris Geyser Basin</h3>
+                        </div>
+                        <div class="activity-content">
+                            <p>Hottest thermal area in Yellowstone. Explore both Porcelain Basin and Back Basin boardwalks. Home to Steamboat Geyser.</p>
+                            <div class="activity-image">[Photo: Norris Geyser Basin steaming vents]</div>
+                            <p><strong>Thermal feature:</strong> Temperatures can exceed 200°F just below the surface.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <div class="activity-time">12:00 PM - 2:00 PM</div>
+                            <h3 class="activity-title">Fairy Falls Trail</h3>
+                        </div>
+                        <div class="activity-content">
+                            <p>Easy 2.4-mile hike to a beautiful 200-foot waterfall. Trail also provides great views of Grand Prismatic from above.</p>
+                            <div class="activity-image">[Photo: Fairy Falls with autumn foliage]</div>
+                            <p><strong>Hiking tip:</strong> Trail may have snow in early spring/late fall - check conditions.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <div class="activity-time">3:00 PM - 5:00 PM</div>
+                            <h3 class="activity-title">Return to Favorites</h3>
+                        </div>
+                        <div class="activity-content">
+                            <p>Use this time to revisit your favorite spots from the previous days. Perfect for better photos, deeper exploration, or relaxation.</p>
+                            <div class="activity-image">[Photo: Sunset at Yellowstone Lake]</div>
+                            <p><strong>Photography:</strong> Golden hour light perfect for landscape photography.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tips-section">
+                    <h4>Day 4 Flexible Options</h4>
+                    <ul class="tips-list">
+                        <li>If weather is poor, spend time in visitor centers and museums</li>
+                        <li>Consider a ranger-led program or evening presentation</li>
+                        <li>Shop for souvenirs at park stores</li>
+                        <li>Relax at your accommodation and plan your next adventure</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Day 5 (Optional) -->
+        <section class="day-section">
+            <div class="day-header">
+                <h2 class="day-title">Day 5 (Optional): Extended Exploration</h2>
+                <p class="day-subtitle">For those with extra time - deeper dives and nearby attractions</p>
+            </div>
+            <div class="day-content">
+                <div class="activity-grid">
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <div class="activity-time">Morning Option</div>
+                            <h3 class="activity-title">Grand Teton National Park</h3>
+                        </div>
+                        <div class="activity-content">
+                            <p>If staying extra, drive south to Grand Teton National Park (1 hour). Perfect for dramatic mountain photography and different scenery.</p>
+                            <div class="activity-image">[Photo: Grand Teton mountains reflection]</div>
+                            <p><strong>Day trip option:</strong> Jenny Lake and Jackson Lake areas are accessible year-round.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <div class="activity-time">Alternative</div>
+                            <h3 class="activity-title">Beartooth Highway</h3>
+                        </div>
+                        <div class="activity-content">
+                            <p>One of America's most scenic drives (when open). High-altitude route with stunning mountain vistas. Check seasonal closures.</p>
+                            <div class="activity-image">[Photo: Beartooth Highway scenic overlook]</div>
+                            <p><strong>Note:</strong> Usually closed October-May due to snow. Check current conditions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="booking-section">
+                    <h4>Extended Stay Options</h4>
+                    <p>If staying an extra night:</p>
+                    <div class="booking-links">
+                        <a href="#" class="book-btn primary">Jackson Lake Lodge</a>
+                        <a href="#" class="book-btn">Red Lodge, MT Hotels</a>
+                        <a href="#" class="book-btn">Cody, WY Accommodations</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Tips Section -->
+        <section class="overview">
+            <h2>Before You Go - Final Checklist</h2>
+            <div class="tips-section">
+                <h4>Essential Preparations</h4>
+                <ul class="tips-list">
+                    <li>Check park road conditions and closures on NPS website</li>
+                    <li>Download offline maps and park apps</li>
+                    <li>Book accommodations 6+ months in advance for off-season</li>
+                    <li>Pack layered clothing for temperature swings</li>
+                    <li>Bring bear spray for all hiking activities</li>
+                    <li>Purchase park pass online to avoid entrance delays</li>
+                </ul>
+            </div>
+            
+            <div class="emergency-info">
+                <h4>Emergency Contacts</h4>
+                <p><strong>Park Emergency:</strong> 911 or (307) 344-2228<br>
+                <strong>Weather Info:</strong> (307) 344-2113<br>
+                <strong>Road Conditions:</strong> (307) 344-2117</p>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // Print functionality
+        function printItinerary() {
+            window.print();
+        }
+
+        // Smooth scrolling for any anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Track booking link clicks for analytics
+        document.querySelectorAll('.book-btn').forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                console.log('Booking link clicked:', this.textContent);
+                // Add your tracking code here
+                alert('This would redirect to the booking platform: ' + this.textContent);
+            });
+        });
+    </script>
+</body>
+</html>

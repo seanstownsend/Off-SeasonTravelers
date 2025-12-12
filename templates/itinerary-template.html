@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4-5 Day Off-Season Itinerary for {{PARK_NAME}} | Off-Season Travelers</title>
+    <meta name="description" content="Complete 4-5 day off-season itinerary for {{PARK_NAME}}. Low-stress, crowd-avoiding activities with detailed daily plans.">
+    
+    <style>
+        /* CSS Variables for easy customization */
+        :root {
+            --primary-green: #059669;
+            --light-green: #22c55e;
+            --dark-green: #15803d;
+            --accent-orange: #f97316;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-600: #4b5563;
+            --gray-800: #1f2937;
+            --white: #ffffff;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --border-radius: 0.75rem;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--gray-800);
+            background-color: var(--gray-50);
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary-green), var(--light-green));
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            box-shadow: var(--shadow);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .header .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Navigation Breadcrumb */
+        .breadcrumb {
+            background: var(--white);
+            padding: 1rem 0;
+            box-shadow: var(--shadow);
+        }
+
+        .breadcrumb-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .breadcrumb a {
+            color: var(--primary-green);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Introduction Section */
+        .intro-section {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .intro-section h2 {
+            color: var(--primary-green);
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .intro-section p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Quick Overview Cards */
+        .overview-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .overview-card {
+            background: var(--white);
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            text-align: center;
+            border-top: 4px solid var(--primary-green);
+        }
+
+        .overview-card h3 {
+            color: var(--dark-green);
+            margin-bottom: 0.5rem;
+        }
+
+        .overview-card .stat {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--accent-orange);
+        }
+
+        /* Day Section */
+        .day-section {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+
+        .day-header {
+            background: linear-gradient(135deg, var(--primary-green), var(--light-green));
+            color: white;
+            padding: 1.5rem 2rem;
+            position: relative;
+        }
+
+        .day-header h2 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .day-header .day-theme {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        .day-content {
+            padding: 2rem;
+        }
+
+        /* Time Period Sections */
+        .time-period {
+            margin-bottom: 2.5rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--gray-100);
+        }
+
+        .time-period:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+
+        .time-period h3 {
+            color: var(--primary-green);
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .time-icon {
+            font-size: 1.2rem;
+        }
+
+        /* Activity Cards */
+        .activity-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .activity-card {
+            background: var(--gray-50);
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--accent-orange);
+        }
+
+        .activity-card h4 {
+            color: var(--dark-green);
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .activity-meta {
+            display: flex;
+            gap: 1rem;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+            color: var(--gray-600);
+        }
+
+        .activity-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        /* Info Boxes */
+        .info-box {
+            background: #ecfdf5;
+            border: 1px solid #10b981;
+            border-radius: var(--border-radius);
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+
+        .info-box.warning {
+            background: #fef3c7;
+            border-color: #f59e0b;
+        }
+
+        .info-box.tip {
+            background: #dbeafe;
+            border-color: #3b82f6;
+        }
+
+        .info-box h5 {
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        /* Affiliate/Booking Boxes */
+        .booking-box {
+            background: linear-gradient(135deg, var(--accent-orange), #fb923c);
+            color: white;
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .booking-box h4 {
+            margin-bottom: 1rem;
+        }
+
+        .booking-button {
+            display: inline-block;
+            background: white;
+            color: var(--accent-orange);
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            transition: var(--transition);
+            margin: 0.5rem;
+        }
+
+        .booking-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Map Placeholder */
+        .map-placeholder {
+            background: var(--gray-100);
+            border: 2px dashed var(--gray-600);
+            border-radius: var(--border-radius);
+            padding: 3rem;
+            text-align: center;
+            color: var(--gray-600);
+            margin: 1.5rem 0;
+        }
+
+        /* Summary Section */
+        .summary-section {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            padding: 2.5rem;
+            margin-top: 2rem;
+        }
+
+        .summary-section h2 {
+            color: var(--primary-green);
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .summary-box {
+            background: var(--gray-50);
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            border-top: 4px solid var(--primary-green);
+        }
+
+        .summary-box h3 {
+            color: var(--dark-green);
+            margin-bottom: 1rem;
+        }
+
+        .summary-box ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .summary-box li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .summary-box li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--primary-green);
+            font-weight: bold;
+        }
+
+        /* Cost Breakdown Table */
+        .cost-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            background: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        .cost-table th,
+        .cost-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--gray-100);
+        }
+
+        .cost-table th {
+            background: var(--primary-green);
+            color: white;
+            font-weight: 600;
+        }
+
+        .cost-table .total-row {
+            background: var(--gray-50);
+            font-weight: bold;
+        }
+
+        /* Back to Park Page */
+        .back-link {
+            display: inline-block;
+            background: var(--primary-green);
+            color: white;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            transition: var(--transition);
+            margin: 2rem 0;
+        }
+
+        .back-link:hover {
+            background: var(--dark-green);
+            transform: translateY(-2px);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .header .subtitle {
+                font-size: 1rem;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+
+            .intro-section,
+            .day-content,
+            .summary-section {
+                padding: 1.5rem;
+            }
+
+            .overview-grid,
+            .activity-grid,
+            .summary-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .activity-meta {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .day-header {
+                padding: 1rem;
+            }
+
+            .day-content {
+                padding: 1rem;
+            }
+
+            .time-period h3 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb">
+        <div class="breadcrumb-container">
+            <a href="{{MAIN_SITE_URL}}">Home</a> > 
+            <a href="{{PARK_PAGE_URL}}">{{PARK_NAME}}</a> > 
+            <span>4-5 Day Itinerary</span>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>4-5 Day Off-Season Itinerary for {{PARK_NAME}}</h1>
+        <p class="subtitle">
+            A carefully crafted low-stress, crowd-avoiding adventure through {{PARK_NAME}} during {{OFF_SEASON_MONTHS}}. 
+            Experience the park's highlights while avoiding the hustle and bustle of peak season.
+        </p>
+    </header>
+
+    <div class="container">
+        <!-- Introduction Section -->
+        <section class="intro-section">
+            <h2>Your Perfect Off-Season Adventure Awaits</h2>
+            <p>
+                This itinerary focuses on {{ITINERARY_FOCUS}} during {{PARK_NAME}}'s peaceful off-season. 
+                Each day is designed to maximize your experience while minimizing stress, crowds, and rushing. 
+                Enjoy {{UNIQUE_SEASONAL_FEATURE}} and discover why {{OFF_SEASON_MONTHS}} might be the best time to visit.
+            </p>
+        </section>
+
+        <!-- Quick Overview -->
+        <div class="overview-grid">
+            <div class="overview-card">
+                <h3>Duration</h3>
+                <div class="stat">4-5 Days</div>
+                <p>Flexible timing with optional Day 5</p>
+            </div>
+            <div class="overview-card">
+                <h3>Best Months</h3>
+                <div class="stat">{{BEST_MONTHS}}</div>
+                <p>Optimal off-season conditions</p>
+            </div>
+            <div class="overview-card">
+                <h3>Estimated Cost</h3>
+                <div class="stat">${{TOTAL_COST_RANGE}}</div>
+                <p>Per person, mid-range options</p>
+            </div>
+            <div class="overview-card">
+                <h3>Difficulty</h3>
+                <div class="stat">{{DIFFICULTY_LEVEL}}</div>
+                <p>Suitable for most fitness levels</p>
+            </div>
+        </div>
+
+        <!-- Day 1 -->
+        <section class="day-section">
+            <div class="day-header">
+                <h2>Day 1: {{DAY_1_THEME}}</h2>
+                <p class="day-theme">{{DAY_1_SUBTITLE}}</p>
+            </div>
+            <div class="day-content">
+                <!-- Morning -->
+                <div class="time-period">
+                    <h3><span class="time-icon">🌅</span> Morning (8:00 AM - 12:00 PM)</h3>
+                    <div class="activity-grid">
+                        <div class="activity-card">
+                            <h4>{{DAY_1_MORNING_ACTIVITY}}</h4>
+                            <div class="activity-meta">
+                                <span>⏱️ {{DAY_1_MORNING_DURATION}}</span>
+                                <span>📍 {{DAY_1_MORNING_LOCATION}}</span>
+                                <span>🚗 {{DAY_1_MORNING_DISTANCE}}</span>
+                            </div>
+                            <p>{{DAY_1_MORNING_DESCRIPTION}}</p>
+                            <div class="info-box tip">
+                                <h5>Off-Season Advantage:</h5>
+                                <p>{{DAY_1_MORNING_OFF_SEASON_TIP}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Afternoon -->
+                <div class="time-period">
+                    <h3><span class="time-icon">☀️</span> Afternoon (12:00 PM - 5:00 PM)</h3>
+                    <div class="activity-grid">
+                        <div class="activity-card">
+                            <h4>{{DAY_1_AFTERNOON_ACTIVITY}}</h4>
+                            <div class="activity-meta">
+                                <span>⏱️ {{DAY_1_AFTERNOON_DURATION}}</span>
+                                <span>📍 {{DAY_1_AFTERNOON_LOCATION}}</span>
+                                <span>🚗 {{DAY_1_AFTERNOON_DISTANCE}}</span>
+                            </div>
+                            <p>{{DAY_1_AFTERNOON_DESCRIPTION}}</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <h5>Lunch Recommendation:</h5>
+                        <p>{{DAY_1_LUNCH_SUGGESTION}}</p>
+                    </div>
+                </div>
+
+                <!-- Evening -->
+                <div class="time-period">
+                    <h3><span class="time-icon">🌆</span> Evening (5:00 PM - 9:00 PM)</h3>
+                    <div class="activity-grid">
+                        <div class="activity-card">
+                            <h4>{{DAY_1_EVENING_ACTIVITY}}</h4>
+                            <div class="activity-meta">
+                                <span>⏱️ {{DAY_1_EVENING_DURATION}}</span>
+                                <span>📍 {{DAY_1_EVENING_LOCATION}}</span>
+                            </div>
+                            <p>{{DAY_1_EVENING_DESCRIPTION}}</p>
+                        </div>
+                    </div>
+
+                    <div class="booking-box">
+                        <h4>🏨 Day 1 Lodging Recommendation</h4>
+                        <p>{{DAY_1_LODGING_DESCRIPTION}}</p>
+                        <a href="{{DAY_1_LODGING_AFFILIATE_LINK}}" class="booking-button">Book on Expedia</a>
+                        <a href="{{DAY_1_LODGING_BOOKING_LINK}}" class="booking-button">Book on Booking.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Day 2 -->
+        <section class="day-section">
+            <div class="day-header">
+                <h2>Day 2: {{DAY_2_THEME}}</h2>
+                <p class="day-theme">{{DAY_2_SUBTITLE}}</p>
+            </div>
+            <div class="day-content">
+                <!-- Morning -->
+                <div class="time-period">
+                    <h3><span class="time-icon">🌅</span> Morning (8:00 AM - 12:00 PM)</h3>
+                    <div class="activity-grid">
+                        <div class="activity-card">
+                            <h4>{{DAY_2_MORNING_ACTIVITY}}</h4>
+                            <div class="activity-meta">
+                                <span>⏱️ {{DAY_2_MORNING_DURATION}}</span>
+                                <span>📍 {{DAY_2_MORNING_LOCATION}}</span>
+                                <span>🚗 {{DAY_2_MORNING_DISTANCE}}</span>
+                            </div>
+                            <p>{{DAY_2_MORNING_DESCRIPTION}}</p>
+                            <div class="info-box warning">
+                                <h5>Off-Season Note:</h5>
+                                <p>{{DAY_2_MORNING_WARNING}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Afternoon -->
+                <div class="time-period">
+                    <h3><span class="time-icon">☀️</span> Afternoon (12:00 PM - 5:00 PM)</h3>
+                    <div class="activity-grid">
+                        <div class="activity-card">
+                            <h4>{{DAY_2_AFTERNOON_ACTIVITY}}</h4>
+                            <div class="activity-meta">
+                                <span>⏱️ {{DAY_2_AFTERNOON_DURATION}}</span>
+                                <span>📍 {{DAY_2_AFTERNOON_LOCATION}}</span>
+                                <span>🚗 {{DAY_2_AFTERNOON_DISTANCE}}</span>
+                            </div>
+                            <p>{{DAY_2_AFTERNOON_DESCRIPTION}}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Evening -->
+                <div class="time-period">
+                    <h3><span class="time-icon">🌆</span> Evening (5:00 PM - 9:00 PM)</h3>
+                    <div class="activity-grid">
+                        <div class="activity-card">
+                            <h4>{{DAY_2_EVENING_ACTIVITY}}</h4>
+                            <div class="activity-meta">
+                                <span>⏱️ {{DAY_2_EVENING_DURATION}}</span>
+                                <span>📍 {{DAY_2_EVENING_LOCATION}}</span>
+                            </div>
+                            <p>{{DAY_2_EVENING_DESCRIPTION}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Day 3 -->
+        <section class="day-section">
+            <div class="day-header">
+                <h2>Day 3: {{DAY_3_THEME}}</h2>
+                <p class="day-theme">{{DAY_3_SUBTITLE}}</p>
+            </div>
+            <div class="day-content">
+                <!-- Morning -->
+                <div class="time-period">
+                    <h3><span class="time-icon">🌅</span> Morning (8:00 AM - 12:00 PM)</h3>
+                    <div class="activity-grid">
+                        <div class="activity-card">
+                            <h4>{{DAY_3_MORNING_ACTIVITY}}</h4>
+                            <div class="activity-meta">
+                                <span>⏱️ {{DAY_3_MORNING_DURATION}}</span>
+                                <span>📍 {{DAY_3_MORNING_LOCATION}}</span>
+                                <span>🚗 {{DAY_3_MORNING_DISTANCE}}</span>
+                            </div>
+                            <p>{{DAY_3_MORNING_DESCRIPTION}}</p>
+                        </div>
+                    </div>
+
+                    <div class="map-placeholder">
+                        [INSERT: Google Maps Embed for Day 3 Route]<br>
+                        <em>Embed code: &lt;iframe src="{{GOOGLE_MAPS_EMBED_URL}}"&gt;&lt;/iframe&gt;</em>
+                    </div>
+                </div>
+
+                <!-- Afternoon -->
+                <div class="time-period">
+                    <h3><span class="time-icon">☀️</span> Afternoon (12:00 PM - 5:00 PM)</h3>
+                    <div class="activity-grid">
+                        <div class="activity-card">
+                            <h4>{{DAY_3_AFTERNOON_ACTIVITY}}</h4>
+                            <div class="activity-meta">
+                                <span>⏱️ {{DAY_3_AFTERNOON_DURATION}}</span>
+                                <span>📍 {{DAY_3_AFTERNOON_LOCATION}}</span>
+                                <span>🚗 {{DAY_3_AFTERNOON_DISTANCE}}</span>
+                            </div>
+                            <p>{{DAY_3_AFTERNOON_DESCRIPTION}}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Evening -->
+                <div class="time-period">
+                    <h3><span class="time-icon">🌆</span> Evening (5:00 PM - 9:00 PM)</h3>
+                    <div class="activity-grid">
+                        <div class="activity-card">
+                            <h4>{{DAY_3_EVENING_ACTIVITY}}</h4>
+                            <div class="activity-meta">
+                                <span>⏱️ {{DAY_3_EVENING_DURATION}}</span>
+                                <span>📍 {{DAY_3_EVENING_LOCATION}}</span>
+                            </div>
+                            <p>{{DAY_3_EVENING_DESCRIPTION}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Day 4 -->
+        <section class="day-section">
+            <div class="day-header">
+                <h2>Day 4: {{DAY_4_THEME}}</h2>
+                <p class="day-theme">{{DAY_4_SUBTITLE}}</p>
+            </div>
+            <div class="day-content">
+                <!-- Morning -->
+                <div class="time-period">
+                    <h3><span class="time-icon">🌅</span> Morning (8:00 AM - 12:00 PM)</h3>
+                    <div class="activity-grid">
+                        <div class="activity-card">
+                            <h4>{{DAY_4_MORNING_ACTIVITY}}</h4>
+                            <div class="activity-meta">
+                                <span>⏱️ {{DAY_4_MORNING_DURATION}}</span>
+                                <span>📍 {{DAY_4_MORNING_LOCATION}}</span>
+                                <span>🚗 {{DAY_4_MORNING_DISTANCE}}</span>
+                            </div>
+                            <p>{{DAY_4_MORNING_DESCRIPTION}}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Afternoon -->
+                <div class="time-period">
+                    <h3><span class="time-icon">☀️</span> Afternoon (12:00 PM - 5:00 PM)</h3>
+                    <div class="activity-grid">
+                        <div class="activity-card">
+                            <h4>{{DAY_4_AFTERNOON_ACTIVITY}}</h4>
+                            <div class="activity-meta">
+                                <span>⏱️ {{DAY_4_AFTERNOON_DURATION}}</span>
+                                <span>📍 {{DAY_4_AFTERNOON_LOCATION}}</span>
+                                <span>🚗 {{DAY_4_AFTERNOON_DISTANCE}}</span>
+                            </div>
+                            <p>{{DAY_4_AFTERNOON_DESCRIPTION}}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Evening -->
+                <div class="time-period">
+                    <h3><span class="time-icon">🌆</span> Evening (5:00 PM - 9:00 PM)</h3>
+                    <div class="activity-grid">
+                        <div class="activity-card">
+                            <h4>{{DAY_4_EVENING_ACTIVITY}}</h4>
+                            <div class="activity-meta">
+                                <span>⏱️ {{DAY_4_EVENING_DURATION}}</span>
+                                <span>📍 {{DAY_4_EVENING_LOCATION}}</span>
+                            </div>
+                            <p>{{DAY_4_EVENING_DESCRIPTION}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Day 5 (Optional) -->
+        <section class="day-section">
+            <div class="day-header">
+                <h2>Day 5 (Optional): {{DAY_5_THEME}}</h2>
+                <p class="day-theme">{{DAY_5_SUBTITLE}}</p>
+            </div>
+            <div class="day-content">
+                <div class="info-box">
+                    <h5>Flexible Extension Day</h5>
+                    <p>Perfect for those who want to extend their stay or catch anything they missed from previous days.</p>
+                </div>
+
+                <!-- Morning -->
+                <div class="time-period">
+                    <h3><span class="time-icon">🌅</span> Morning (8:00 AM - 12:00 PM)</h3>
+                    <div class="activity-grid">
+                        <div class="activity-card">
+                            <h4>{{DAY_5_MORNING_ACTIVITY}}</h4>
+                            <div class="activity-meta">
+                                <span>⏱️ {{DAY_5_MORNING_DURATION}}</span>
+                                <span>📍 {{DAY_5_MORNING_LOCATION}}</span>
+                            </div>
+                            <p>{{DAY_5_MORNING_DESCRIPTION}}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Afternoon -->
+                <div class="time-period">
+                    <h3><span class="time-icon">☀️</span> Afternoon (12:00 PM - 5:00 PM)</h3>
+                    <div class="activity-grid">
+                        <div class="activity-card">
+                            <h4>{{DAY_5_AFTERNOON_ACTIVITY}}</h4>
+                            <div class="activity-meta">
+                                <span>⏱️ {{DAY_5_AFTERNOON_DURATION}}</span>
+                                <span>📍 {{DAY_5_AFTERNOON_LOCATION}}</span>
+                            </div>
+                            <p>{{DAY_5_AFTERNOON_DESCRIPTION}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Summary Section -->
+        <section class="summary-section">
+            <h2>Trip Summary & Planning Details</h2>
+            
+            <div class="summary-grid">
+                <div class="summary-box">
+                    <h3>💰 Estimated Costs</h3>
+                    <table class="cost-table">
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>Budget</th>
+                                <th>Mid-Range</th>
+                                <th>Luxury</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Accommodation (4 nights)</td>
+                                <td>${{ACCOMMODATION_BUDGET}}</td>
+                                <td>${{ACCOMMODATION_MID}}</td>
+                                <td>${{ACCOMMODATION_LUXURY}}</td>
+                            </tr>
+                            <tr>
+                                <td>Transportation</td>
+                                <td>${{TRANSPORT_BUDGET}}</td>
+                                <td>${{TRANSPORT_MID}}</td>
+                                <td>${{TRANSPORT_LUXURY}}</td>
+                            </tr>
+                            <tr>
+                                <td>Food & Dining</td>
+                                <td>${{FOOD_BUDGET}}</td>
+                                <td>${{FOOD_MID}}</td>
+                                <td>${{FOOD_LUXURY}}</td>
+                            </tr>
+                            <tr>
+                                <td>Activities & Park Fees</td>
+                                <td>${{ACTIVITIES_BUDGET}}</td>
+                                <td>${{ACTIVITIES_MID}}</td>
+                                <td>${{ACTIVITIES_LUXURY}}</td>
+                            </tr>
+                            <tr class="total-row">
+                                <td><strong>Total (per person)</strong></td>
+                                <td><strong>${{TOTAL_BUDGET}}</strong></td>
+                                <td><strong>${{TOTAL_MID}}</strong></td>
+                                <td><strong>${{TOTAL_LUXURY}}</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="summary-box">
+                    <h3>📅 Best Months to Visit</h3>
+                    <ul>
+                        <li>{{BEST_MONTH_1}} - {{BEST_MONTH_1_REASON}}</li>
+                        <li>{{BEST_MONTH_2}} - {{BEST_MONTH_2_REASON}}</li>
+                        <li>{{BEST_MONTH_3}} - {{BEST_MONTH_3_REASON}}</li>
+                    </ul>
+                </div>
+
+                <div class="summary-box">
+                    <h3>🎒 Packing Essentials</h3>
+                    <ul>
+                        <li>{{PACKING_ITEM_1}}</li>
+                        <li>{{PACKING_ITEM_2}}</li>
+                        <li>{{PACKING_ITEM_3}}</li>
+                        <li>{{PACKING_ITEM_4}}</li>
+                        <li>{{PACKING_ITEM_5}}</li>
+                        <li>{{PACKING_ITEM_6}}</li>
+                    </ul>
+                </div>
+
+                <div class="summary-box">
+                    <h3>🚗 Transportation Tips</h3>
+                    <ul>
+                        <li>{{TRANSPORT_TIP_1}}</li>
+                        <li>{{TRANSPORT_TIP_2}}</li>
+                        <li>{{TRANSPORT_TIP_3}}</li>
+                        <li>{{TRANSPORT_TIP_4}}</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Final Booking CTAs -->
+            <div class="booking-box">
+                <h4>🏨 Ready to Book Your {{PARK_NAME}} Adventure?</h4>
+                <p>Save on accommodations and transportation with our partner booking sites:</p>
+                <a href="{{EXPEDIA_AFFILIATE_LINK}}" class="booking-button">Find Hotels on Expedia</a>
+                <a href="{{BOOKING_AFFILIATE_LINK}}" class="booking-button">Book Stays on Booking.com</a>
+                <a href="{{RENTAL_CAR_AFFILIATE_LINK}}" class="booking-button">Rent a Car</a>
+            </div>
+        </section>
+
+        <!-- Back to Park Page -->
+        <a href="{{PARK_PAGE_URL}}" class="back-link">← Back to {{PARK_NAME}} Guide</a>
+    </div>
+
+    <script>
+        // Smooth scrolling for any anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Optional: Add progress indicator for reading
+        window.addEventListener('scroll', function() {
+            const scrolled = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+            document.documentElement.style.setProperty('--scroll-progress', scrolled + '%');
+        });
+    </script>
+</body>
+</html>

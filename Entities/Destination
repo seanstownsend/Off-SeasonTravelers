@@ -1,0 +1,115 @@
+{
+  "name": "Destination",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the destination"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the destination"
+    },
+    "continent": {
+      "type": "string",
+      "enum": [
+        "north_america",
+        "south_america",
+        "europe",
+        "asia",
+        "africa",
+        "oceania"
+      ],
+      "description": "Continent where destination is located"
+    },
+    "country": {
+      "type": "string",
+      "description": "Country name"
+    },
+    "state_province": {
+      "type": "string",
+      "description": "State (USA) or Province (Canada) if applicable"
+    },
+    "city": {
+      "type": "string",
+      "description": "City name"
+    },
+    "is_national_park": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this is a national park destination"
+    },
+    "off_season_months": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "january",
+          "february",
+          "march",
+          "april",
+          "may",
+          "june",
+          "july",
+          "august",
+          "september",
+          "october",
+          "november",
+          "december"
+        ]
+      },
+      "description": "Months when this destination is in off-season"
+    },
+    "best_off_season_month": {
+      "type": "string",
+      "enum": [
+        "january",
+        "february",
+        "march",
+        "april",
+        "may",
+        "june",
+        "july",
+        "august",
+        "september",
+        "october",
+        "november",
+        "december"
+      ],
+      "description": "The best month to visit during off-season"
+    },
+    "off_season_highlights": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Key highlights and advantages of visiting during off-season"
+    },
+    "average_temperature_range": {
+      "type": "string",
+      "description": "Temperature range during off-season (e.g. '15-25°C')"
+    },
+    "typical_savings": {
+      "type": "string",
+      "description": "Typical savings percentage during off-season (e.g. '30-50%')"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "URL to destination image"
+    },
+    "latitude": {
+      "type": "number",
+      "description": "Latitude coordinate"
+    },
+    "longitude": {
+      "type": "number",
+      "description": "Longitude coordinate"
+    }
+  },
+  "required": [
+    "name",
+    "continent",
+    "country",
+    "off_season_months"
+  ]
+}

@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{PARK_NAME}}: Off-Season Guide | Off-Season Travelers</title>
+    <meta name="description" content="Discover {{PARK_NAME}} during {{OFF_SEASON_MONTHS}} - fewer crowds, lower costs, unique experiences. Complete off-season travel guide.">
+    
+    <style>
+        /* CSS Variables for easy customization */
+        :root {
+            --primary-green: #059669;
+            --light-green: #22c55e;
+            --dark-green: #15803d;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-600: #4b5563;
+            --gray-800: #1f2937;
+            --white: #ffffff;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --border-radius: 0.75rem;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--gray-800);
+            background-color: var(--gray-50);
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary-green), var(--light-green));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: var(--shadow);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .header .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        /* Main Layout Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Main Content Area */
+        .main-content {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            padding: 2.5rem;
+        }
+
+        /* Section Styling */
+        .section {
+            margin-bottom: 3rem;
+            scroll-margin-top: 2rem;
+        }
+
+        .section h2 {
+            color: var(--primary-green);
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid var(--light-green);
+            padding-bottom: 0.5rem;
+        }
+
+        .section h3 {
+            color: var(--dark-green);
+            font-size: 1.3rem;
+            margin: 1.5rem 0 1rem 0;
+        }
+
+        /* Content Elements */
+        .highlight-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .highlight-card {
+            background: var(--gray-50);
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--primary-green);
+        }
+
+        .pros-cons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 1.5rem 0;
+        }
+
+        .pros, .cons {
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+        }
+
+        .pros {
+            background: #ecfdf5;
+            border-left: 4px solid #10b981;
+        }
+
+        .cons {
+            background: #fef2f2;
+            border-left: 4px solid #ef4444;
+        }
+
+        .weather-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            background: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        .weather-table th,
+        .weather-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--gray-100);
+        }
+
+        .weather-table th {
+            background: var(--primary-green);
+            color: white;
+            font-weight: 600;
+        }
+
+        .tips-list {
+            counter-reset: tip-counter;
+        }
+
+        .tips-list li {
+            counter-increment: tip-counter;
+            margin-bottom: 1rem;
+            padding-left: 3rem;
+            position: relative;
+        }
+
+        .tips-list li::before {
+            content: counter(tip-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: var(--primary-green);
+            color: white;
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .checklist {
+            list-style: none;
+        }
+
+        .checklist li {
+            margin-bottom: 0.75rem;
+            padding-left: 2rem;
+            position: relative;
+        }
+
+        .checklist li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--primary-green);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        /* User Feedback Section */
+        .feedback-form {
+            background: var(--gray-50);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            margin: 2rem 0;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--gray-800);
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid var(--gray-100);
+            border-radius: 0.5rem;
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--primary-green);
+            box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.1);
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, var(--primary-green), var(--light-green));
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: var(--border-radius);
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(5, 150, 105, 0.3);
+        }
+
+        .user-reviews {
+            margin-top: 2rem;
+        }
+
+        .review-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            margin-bottom: 1.5rem;
+        }
+
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .reviewer-info {
+            font-weight: 600;
+            color: var(--gray-800);
+        }
+
+        .review-date {
+            color: var(--gray-600);
+            font-size: 0.9rem;
+        }
+
+        .rating {
+            color: #fbbf24;
+            font-size: 1.2rem;
+        }
+
+        .review-photo {
+            width: 100%;
+            max-width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .main-content {
+                padding: 1.5rem;
+            }
+
+            .pros-cons {
+                grid-template-columns: 1fr;
+            }
+
+            .highlight-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .header .subtitle {
+                font-size: 1rem;
+            }
+
+            .container {
+                padding: 0.5rem;
+            }
+
+            .main-content {
+                padding: 1rem;
+            }
+
+            .section h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        /* Utility Classes */
+        .image-placeholder {
+            background: var(--gray-100);
+            border: 2px dashed var(--gray-600);
+            border-radius: var(--border-radius);
+            padding: 3rem;
+            text-align: center;
+            color: var(--gray-600);
+            margin: 1.5rem 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--primary-green), var(--light-green));
+            color: white;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            transition: var(--transition);
+            margin: 1rem 0;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(5, 150, 105, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1>{{PARK_NAME}}: Off-Season Guide</h1>
+        <p class="subtitle">Discover the beauty of {{PARK_NAME}} during {{OFF_SEASON_MONTHS}} - fewer crowds, lower costs, unforgettable experiences</p>
+    </header>
+
+    <div class="container">
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Off-Season Highlights Section -->
+            <section id="highlights" class="section">
+                <h2>Off-Season Highlights</h2>
+                <p>Experience {{PARK_NAME}} like never before during the {{OFF_SEASON_MONTHS}}. Here's why off-season travel offers the ultimate national park adventure:</p>
+                
+                <div class="highlight-grid">
+                    <div class="highlight-card">
+                        <h3>🌲 Peaceful Wilderness</h3>
+                        <p>{{PEACEFUL_DESCRIPTION}} - Enjoy trails and viewpoints without the summer crowds.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>💰 Significant Savings</h3>
+                        <p>Save up to {{SAVINGS_PERCENTAGE}}% on accommodations and discover local deals unavailable during peak season.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>📸 Unique Photo Opportunities</h3>
+                        <p>{{PHOTO_OPPORTUNITIES}} - Capture the park's seasonal beauty without photobombers.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>🦌 Enhanced Wildlife Viewing</h3>
+                        <p>{{WILDLIFE_DESCRIPTION}} - Animals are more active and visible during off-season months.</p>
+                    </div>
+                </div>
+
+                <div class="image-placeholder">
+                    [INSERT: Off-season landscape photo of {{PARK_NAME}}]<br>
+                    <em>WordPress Plugin: Insert gallery or featured image here</em>
+                </div>
+            </section>
+
+            <!-- Off-Season Trade-Offs Section -->
+            <section id="tradeoffs" class="section">
+                <h2>Off-Season Trade-Offs</h2>
+                <p>While off-season travel offers incredible benefits, it's important to understand the potential challenges:</p>
+                
+                <div class="pros-cons">
+                    <div class="pros">
+                        <h3>✅ Advantages</h3>
+                        <ul>
+                            <li>{{ADVANTAGE_1}}</li>
+                            <li>{{ADVANTAGE_2}}</li>
+                            <li>{{ADVANTAGE_3}}</li>
+                            <li>{{ADVANTAGE_4}}</li>
+                            <li>Lower accommodation costs</li>
+                            <li>Authentic local experiences</li>
+                        </ul>
+                    </div>
+                    <div class="cons">
+                        <h3>⚠️ Considerations</h3>
+                        <ul>
+                            <li>{{LIMITATION_1}}</li>
+                            <li>{{LIMITATION_2}}</li>
+                            <li>{{LIMITATION_3}}</li>
+                            <li>Shorter daylight hours</li>
+                            <li>Some facilities may be closed</li>
+                            <li>Weather can be unpredictable</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Off-Season Weather Section -->
+            <section id="weather" class="section">
+                <h2>Off-Season Weather</h2>
+                <p>Plan your visit with confidence using our detailed weather data for {{PARK_NAME}} during {{OFF_SEASON_MONTHS}}:</p>
+                
+                <table class="weather-table">
+                    <thead>
+                        <tr>
+                            <th>Month</th>
+                            <th>Avg High (°F)</th>
+                            <th>Avg Low (°F)</th>
+                            <th>Precipitation</th>
+                            <th>Conditions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{{MONTH_1}}</td>
+                            <td>{{HIGH_TEMP_1}}°F</td>
+                            <td>{{LOW_TEMP_1}}°F</td>
+                            <td>{{PRECIPITATION_1}}</td>
+                            <td>{{CONDITIONS_1}}</td>
+                        </tr>
+                        <tr>
+                            <td>{{MONTH_2}}</td>
+                            <td>{{HIGH_TEMP_2}}°F</td>
+                            <td>{{LOW_TEMP_2}}°F</td>
+                            <td>{{PRECIPITATION_2}}</td>
+                            <td>{{CONDITIONS_2}}</td>
+                        </tr>
+                        <tr>
+                            <td>{{MONTH_3}}</td>
+                            <td>{{HIGH_TEMP_3}}°F</td>
+                            <td>{{LOW_TEMP_3}}°F</td>
+                            <td>{{PRECIPITATION_3}}</td>
+                            <td>{{CONDITIONS_3}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="image-placeholder">
+                    [INSERT: Weather chart or seasonal comparison images]<br>
+                    <em>WordPress Plugin: Weather widget or custom charts</em>
+                </div>
+            </section>
+
+            <!-- Off-Season Tips Section -->
+            <section id="tips" class="section">
+                <h2>Off-Season Tips</h2>
+                <p>Make the most of your {{PARK_NAME}} off-season adventure with these essential tips:</p>
+                
+                <ol class="tips-list">
+                    <li><strong>{{TIP_1_TITLE}}</strong><br>{{TIP_1_DESCRIPTION}}</li>
+                    <li><strong>{{TIP_2_TITLE}}</strong><br>{{TIP_2_DESCRIPTION}}</li>
+                    <li><strong>{{TIP_3_TITLE}}</strong><br>{{TIP_3_DESCRIPTION}}</li>
+                    <li><strong>{{TIP_4_TITLE}}</strong><br>{{TIP_4_DESCRIPTION}}</li>
+                    <li><strong>{{TIP_5_TITLE}}</strong><br>{{TIP_5_DESCRIPTION}}</li>
+                </ol>
+            </section>
+
+            <!-- Before You Go Section -->
+            <section id="before-you-go" class="section">
+                <h2>Before You Go</h2>
+                <p>Essential pre-trip checklist for your {{PARK_NAME}} off-season adventure:</p>
+                
+                <h3>Reservations & Permits</h3>
+                <ul class="checklist">
+                    <li>{{PERMIT_REQUIREMENT_1}}</li>
+                    <li>{{PERMIT_REQUIREMENT_2}}</li>
+                    <li>Book accommodations early (limited off-season options)</li>
+                    <li>Check park entrance requirements</li>
+                </ul>
+
+                <h3>Gear & Equipment</h3>
+                <ul class="checklist">
+                    <li>{{GEAR_ITEM_1}}</li>
+                    <li>{{GEAR_ITEM_2}}</li>
+                    <li>{{GEAR_ITEM_3}}</li>
+                    <li>Emergency supplies and first aid kit</li>
+                    <li>Appropriate footwear for conditions</li>
+                </ul>
+
+                <h3>Safety Considerations</h3>
+                <ul class="checklist">
+                    <li>{{SAFETY_TIP_1}}</li>
+                    <li>{{SAFETY_TIP_2}}</li>
+                    <li>Check current park conditions and closures</li>
+                    <li>Inform someone of your travel plans</li>
+                </ul>
+            </section>
+
+            <!-- Itinerary Link Section -->
+            <section id="itinerary-link" class="section">
+                <h2>4-5 Day Itinerary</h2>
+                <p>Ready to plan your perfect {{PARK_NAME}} off-season adventure? Our detailed itinerary covers everything from must-see attractions to hidden gems.</p>
+                
+                <a href="{{ITINERARY_PAGE_URL}}" class="cta-button">
+                    View Complete 4-5 Day Itinerary →
+                </a>
+                
+                <div class="highlight-grid">
+                    <div class="highlight-card">
+                        <h3>Day 1-2</h3>
+                        <p>{{ITINERARY_PREVIEW_DAYS_1_2}}</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>Day 3-4</h3>
+                        <p>{{ITINERARY_PREVIEW_DAYS_3_4}}</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>Day 5 (Optional)</h3>
+                        <p>{{ITINERARY_PREVIEW_DAY_5}}</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- User Feedback & Photos Section -->
+            <section id="feedback" class="section">
+                <h2>User Feedback & Photos</h2>
+                <p>Share your {{PARK_NAME}} off-season experience and learn from fellow travelers:</p>
+                
+                <!-- Feedback Form -->
+                <div class="feedback-form">
+                    <h3>Share Your Experience</h3>
+                    <form id="feedbackForm" action="#" method="post">
+                        <!-- WordPress Integration Note: Replace action with your form handler -->
+                        <div class="form-group">
+                            <label for="visitor-name">Your Name</label>
+                            <input type="text" id="visitor-name" name="visitor_name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="visit-date">Date of Visit</label>
+                            <input type="date" id="visit-date" name="visit_date" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="rating">Overall Rating</label>
+                            <select id="rating" name="rating" required>
+                                <option value="">Select Rating</option>
+                                <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+                                <option value="4">⭐⭐⭐⭐ Very Good</option>
+                                <option value="3">⭐⭐⭐ Good</option>
+                                <option value="2">⭐⭐ Fair</option>
+                                <option value="1">⭐ Poor</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="comment">Your Experience</label>
+                            <textarea id="comment" name="comment" rows="5" placeholder="Tell us about your off-season visit to {{PARK_NAME}}..." required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="photo">Share a Photo (optional)</label>
+                            <input type="file" id="photo" name="photo" accept="image/*">
+                            <small>Max file size: 5MB. Formats: JPG, PNG, GIF</small>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Submit Review</button>
+                    </form>
+                </div>
+
+                <!-- Sample User Reviews -->
+                <div class="user-reviews">
+                    <h3>Recent Visitor Reviews</h3>
+                    
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">{{SAMPLE_REVIEWER_1}}</div>
+                            <div class="review-date">{{SAMPLE_DATE_1}}</div>
+                        </div>
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                        <p>{{SAMPLE_REVIEW_1}}</p>
+                        <img src="placeholder-image-1.jpg" alt="User photo from {{PARK_NAME}}" class="review-photo">
+                    </div>
+                    
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">{{SAMPLE_REVIEWER_2}}</div>
+                            <div class="review-date">{{SAMPLE_DATE_2}}</div>
+                        </div>
+                        <div class="rating">⭐⭐⭐⭐</div>
+                        <p>{{SAMPLE_REVIEW_2}}</p>
+                        <img src="placeholder-image-2.jpg" alt="User photo from {{PARK_NAME}}" class="review-photo">
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        // Form submission handler (WordPress integration point)
+        document.getElementById('feedbackForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            // WordPress integration: Replace with your form handler
+            alert('Thank you for your feedback! Your review has been submitted for moderation.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>

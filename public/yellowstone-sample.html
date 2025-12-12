@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellowstone National Park: Off-Season Guide | Off-Season Travelers</title>
+    <meta name="description" content="Discover Yellowstone National Park during September, October, April, May - fewer crowds, lower costs, unique experiences. Complete off-season travel guide.">
+    
+    <style>
+        /* CSS Variables for easy customization */
+        :root {
+            --primary-green: #059669;
+            --light-green: #22c55e;
+            --dark-green: #15803d;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-600: #4b5563;
+            --gray-800: #1f2937;
+            --white: #ffffff;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --border-radius: 0.75rem;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--gray-800);
+            background-color: var(--gray-50);
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary-green), var(--light-green));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: var(--shadow);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .header .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        /* Main Layout Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Main Content Area */
+        .main-content {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            padding: 2.5rem;
+        }
+
+        /* Section Styling */
+        .section {
+            margin-bottom: 3rem;
+            scroll-margin-top: 2rem;
+        }
+
+        .section h2 {
+            color: var(--primary-green);
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid var(--light-green);
+            padding-bottom: 0.5rem;
+        }
+
+        .section h3 {
+            color: var(--dark-green);
+            font-size: 1.3rem;
+            margin: 1.5rem 0 1rem 0;
+        }
+
+        /* Content Elements */
+        .highlight-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .highlight-card {
+            background: var(--gray-50);
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--primary-green);
+        }
+
+        .pros-cons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 1.5rem 0;
+        }
+
+        .pros, .cons {
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+        }
+
+        .pros {
+            background: #ecfdf5;
+            border-left: 4px solid #10b981;
+        }
+
+        .cons {
+            background: #fef2f2;
+            border-left: 4px solid #ef4444;
+        }
+
+        .weather-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            background: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        .weather-table th,
+        .weather-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--gray-100);
+        }
+
+        .weather-table th {
+            background: var(--primary-green);
+            color: white;
+            font-weight: 600;
+        }
+
+        .tips-list {
+            counter-reset: tip-counter;
+        }
+
+        .tips-list li {
+            counter-increment: tip-counter;
+            margin-bottom: 1rem;
+            padding-left: 3rem;
+            position: relative;
+        }
+
+        .tips-list li::before {
+            content: counter(tip-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: var(--primary-green);
+            color: white;
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .checklist {
+            list-style: none;
+        }
+
+        .checklist li {
+            margin-bottom: 0.75rem;
+            padding-left: 2rem;
+            position: relative;
+        }
+
+        .checklist li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--primary-green);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        /* User Feedback Section */
+        .feedback-form {
+            background: var(--gray-50);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            margin: 2rem 0;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--gray-800);
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid var(--gray-100);
+            border-radius: 0.5rem;
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--primary-green);
+            box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.1);
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, var(--primary-green), var(--light-green));
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: var(--border-radius);
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(5, 150, 105, 0.3);
+        }
+
+        .user-reviews {
+            margin-top: 2rem;
+        }
+
+        .review-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            margin-bottom: 1.5rem;
+        }
+
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .reviewer-info {
+            font-weight: 600;
+            color: var(--gray-800);
+        }
+
+        .review-date {
+            color: var(--gray-600);
+            font-size: 0.9rem;
+        }
+
+        .rating {
+            color: #fbbf24;
+            font-size: 1.2rem;
+        }
+
+        .review-photo {
+            width: 100%;
+            max-width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 0.5rem;
+            margin-top: 1rem;
+            background: var(--gray-100);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gray-600);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .main-content {
+                padding: 1.5rem;
+            }
+
+            .pros-cons {
+                grid-template-columns: 1fr;
+            }
+
+            .highlight-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .header .subtitle {
+                font-size: 1rem;
+            }
+
+            .container {
+                padding: 0.5rem;
+            }
+
+            .main-content {
+                padding: 1rem;
+            }
+
+            .section h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        /* Utility Classes */
+        .image-placeholder {
+            background: var(--gray-100);
+            border: 2px dashed var(--gray-600);
+            border-radius: var(--border-radius);
+            padding: 3rem;
+            text-align: center;
+            color: var(--gray-600);
+            margin: 1.5rem 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--primary-green), var(--light-green));
+            color: white;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            transition: var(--transition);
+            margin: 1rem 0;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(5, 150, 105, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Yellowstone National Park: Off-Season Guide</h1>
+        <p class="subtitle">Discover the beauty of Yellowstone National Park during September, October, April, May - fewer crowds, lower costs, unforgettable experiences</p>
+    </header>
+
+    <div class="container">
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Off-Season Highlights Section -->
+            <section id="highlights" class="section">
+                <h2>Off-Season Highlights</h2>
+                <p>Experience Yellowstone National Park like never before during the September, October, April, May. Here's why off-season travel offers the ultimate national park adventure:</p>
+                
+                <div class="highlight-grid">
+                    <div class="highlight-card">
+                        <h3>🌲 Peaceful Wilderness</h3>
+                        <p>Experience Yellowstone's iconic geysers, hot springs, and wildlife viewing areas without the summer crowds that can number over 30,000 visitors per day.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>💰 Significant Savings</h3>
+                        <p>Save up to 60% on accommodations and discover local deals unavailable during peak season.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>📸 Unique Photo Opportunities</h3>
+                        <p>Capture stunning fall colors and spring wildlife activity, plus steam rising from hot springs in crisp air - without photobombers.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>🦌 Enhanced Wildlife Viewing</h3>
+                        <p>Elk bugling season in fall, bear activity before hibernation, and spring births make wildlife viewing exceptional during off-season months.</p>
+                    </div>
+                </div>
+
+                <div class="image-placeholder">
+                    [Yellowstone off-season landscape photo]<br>
+                    <em>Old Faithful with fall colors and no crowds</em>
+                </div>
+            </section>
+
+            <!-- Off-Season Trade-Offs Section -->
+            <section id="tradeoffs" class="section">
+                <h2>Off-Season Trade-Offs</h2>
+                <p>While off-season travel offers incredible benefits, it's important to understand the potential challenges:</p>
+                
+                <div class="pros-cons">
+                    <div class="pros">
+                        <h3>✅ Advantages</h3>
+                        <ul>
+                            <li>Dramatic cost savings on lodging (60% off peak rates)</li>
+                            <li>Wildlife more active and visible</li>
+                            <li>Fall colors and spring wildflowers</li>
+                            <li>Peaceful hiking and geyser viewing</li>
+                            <li>Lower accommodation costs</li>
+                            <li>Authentic local experiences</li>
+                        </ul>
+                    </div>
+                    <div class="cons">
+                        <h3>⚠️ Considerations</h3>
+                        <ul>
+                            <li>Some roads may be closed (Dunraven Pass, etc.)</li>
+                            <li>Limited dining options inside the park</li>
+                            <li>Weather can change rapidly</li>
+                            <li>Shorter daylight hours</li>
+                            <li>Some facilities may be closed</li>
+                            <li>Snow possible even in late spring</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Off-Season Weather Section -->
+            <section id="weather" class="section">
+                <h2>Off-Season Weather</h2>
+                <p>Plan your visit with confidence using our detailed weather data for Yellowstone National Park during September, October, April, May:</p>
+                
+                <table class="weather-table">
+                    <thead>
+                        <tr>
+                            <th>Month</th>
+                            <th>Avg High (°F)</th>
+                            <th>Avg Low (°F)</th>
+                            <th>Precipitation</th>
+                            <th>Conditions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>April</td>
+                            <td>50°F</td>
+                            <td>25°F</td>
+                            <td>1.8 inches</td>
+                            <td>Cool, possible snow</td>
+                        </tr>
+                        <tr>
+                            <td>May</td>
+                            <td>62°F</td>
+                            <td>35°F</td>
+                            <td>2.1 inches</td>
+                            <td>Mild, wildflowers emerging</td>
+                        </tr>
+                        <tr>
+                            <td>September</td>
+                            <td>70°F</td>
+                            <td>38°F</td>
+                            <td>1.4 inches</td>
+                            <td>Pleasant, fall colors beginning</td>
+                        </tr>
+                        <tr>
+                            <td>October</td>
+                            <td>55°F</td>
+                            <td>25°F</td>
+                            <td>1.0 inches</td>
+                            <td>Crisp, peak fall colors</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="image-placeholder">
+                    [Weather chart showing seasonal temperature variations]<br>
+                    <em>Temperature and precipitation graphs for off-season months</em>
+                </div>
+            </section>
+
+            <!-- Off-Season Tips Section -->
+            <section id="tips" class="section">
+                <h2>Off-Season Tips</h2>
+                <p>Make the most of your Yellowstone National Park off-season adventure with these essential tips:</p>
+                
+                <ol class="tips-list">
+                    <li><strong>Layer Your Clothing</strong><br>Temperatures can vary 40+ degrees between morning and afternoon. Bring base layers, insulating layers, and waterproof outer shells.</li>
+                    <li><strong>Check Road Conditions Daily</strong><br>Some park roads close seasonally. Check the NPS website before departing each day for current conditions and closures.</li>
+                    <li><strong>Pack Emergency Supplies</strong><br>Weather can change rapidly. Carry extra food, water, warm clothing, and a first aid kit when hiking or driving remote areas.</li>
+                    <li><strong>Book Accommodations Early</strong><br>Limited lodging options are available during off-season. Reserve well in advance or consider staying in gateway towns.</li>
+                    <li><strong>Bring Bear Spray</strong><br>Fall is when bears are most active preparing for winter. Always carry EPA-approved bear spray when hiking.</li>
+                </ol>
+            </section>
+
+            <!-- Before You Go Section -->
+            <section id="before-you-go" class="section">
+                <h2>Before You Go</h2>
+                <p>Essential pre-trip checklist for your Yellowstone National Park off-season adventure:</p>
+                
+                <h3>Reservations & Permits</h3>
+                <ul class="checklist">
+                    <li>Park entrance pass or America the Beautiful Annual Pass</li>
+                    <li>Lodging reservations (book 6+ months ahead)</li>
+                    <li>Book accommodations early (limited off-season options)</li>
+                    <li>Check park entrance requirements</li>
+                </ul>
+
+                <h3>Gear & Equipment</h3>
+                <ul class="checklist">
+                    <li>Layered clothing system (base, insulating, shell)</li>
+                    <li>Waterproof hiking boots with good traction</li>
+                    <li>EPA-approved bear spray</li>
+                    <li>Emergency supplies and first aid kit</li>
+                    <li>Headlamp with extra batteries</li>
+                </ul>
+
+                <h3>Safety Considerations</h3>
+                <ul class="checklist">
+                    <li>Download offline maps (cell service is limited)</li>
+                    <li>Check weather and road conditions before travel</li>
+                    <li>Check current park conditions and closures</li>
+                    <li>Inform someone of your travel plans</li>
+                </ul>
+            </section>
+
+            <!-- User Feedback & Photos Section -->
+            <section id="feedback" class="section">
+                <h2>User Feedback & Photos</h2>
+                <p>Share your Yellowstone National Park off-season experience and learn from fellow travelers:</p>
+                
+                <!-- Feedback Form -->
+                <div class="feedback-form">
+                    <h3>Share Your Experience</h3>
+                    <form id="feedbackForm" action="#" method="post">
+                        <div class="form-group">
+                            <label for="visitor-name">Your Name</label>
+                            <input type="text" id="visitor-name" name="visitor_name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="visit-date">Date of Visit</label>
+                            <input type="date" id="visit-date" name="visit_date" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="rating">Overall Rating</label>
+                            <select id="rating" name="rating" required>
+                                <option value="">Select Rating</option>
+                                <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+                                <option value="4">⭐⭐⭐⭐ Very Good</option>
+                                <option value="3">⭐⭐⭐ Good</option>
+                                <option value="2">⭐⭐ Fair</option>
+                                <option value="1">⭐ Poor</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="comment">Your Experience</label>
+                            <textarea id="comment" name="comment" rows="5" placeholder="Tell us about your off-season visit to Yellowstone National Park..." required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="photo">Share a Photo (optional)</label>
+                            <input type="file" id="photo" name="photo" accept="image/*">
+                            <small>Max file size: 5MB. Formats: JPG, PNG, GIF</small>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Submit Review</button>
+                    </form>
+                </div>
+
+                <!-- Sample User Reviews -->
+                <div class="user-reviews">
+                    <h3>Recent Visitor Reviews</h3>
+                    
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">Sarah M. from Colorado</div>
+                            <div class="review-date">October 15, 2024</div>
+                        </div>
+                        <div class="rating">⭐⭐⭐⭐⭐</div>
+                        <p>Absolutely magical! Visited Yellowstone in early October and the fall colors were incredible. Old Faithful was practically empty - we had the whole viewing area to ourselves for the 3pm eruption. The wildlife was amazing too - saw elk bugling and even a grizzly bear foraging. Definitely the best time to visit!</p>
+                        <div class="review-photo">[User photo of Old Faithful with fall colors]</div>
+                    </div>
+                    
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">Mike T. from Texas</div>
+                            <div class="review-date">May 8, 2024</div>
+                        </div>
+                        <div class="rating">⭐⭐⭐⭐</div>
+                        <p>Great spring visit! Some roads were still closed but the Grand Loop was open. Saw tons of bison with babies and the wildflowers were just starting to bloom. Weather was unpredictable - had snow, sun, and rain all in one day. Pack layers! Lodging was half the price of summer rates.</p>
+                        <div class="review-photo">[User photo of bison with calves in spring]</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        // Form submission handler
+        document.getElementById('feedbackForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your feedback! Your review has been submitted for moderation.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
