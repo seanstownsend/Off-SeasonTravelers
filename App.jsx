@@ -1,6 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { AuthProvider } from './contexts/AuthContext.jsx'
+import UnderConstruction from './Components/auth/UnderConstruction.jsx'
+import AdminPanel from './Components/auth/AdminPanel.jsx'
+import { useAuth } from './hooks/useAuth.js'
 import Layout from './layout.jsx'
 import Home from './Pages/Home_Minimal.jsx'
 import ByLocation from './Pages/ByLocation_Fixed.jsx'
@@ -126,9 +129,30 @@ import RedwoodsItinerary from './Pages/RedwoodsItinerary.jsx'
 // Import GenericItinerary for the new parks
 import GenericItinerary from './Components/ui/GenericItinerary.jsx'
 
-function App() {
+function AppContent() {
+  const { isAuthenticated, isLoading, login, logout } = useAuth();
+
+  // Show loading state briefly
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-slate-900 flex items-center justify-center">
+        <div className="text-white text-center">
+          <div className="w-8 h-8 border-2 border-white/30 border-t-white rounded-full animate-spin mx-auto mb-4"></div>
+          <p>Loading...</p>
+        </div>
+      </div>
+    );
+  }
+
+  // Show under construction page if not authenticated
+  if (!isAuthenticated) {
+    return <UnderConstruction onAuthenticate={login} />;
+  }
+
+  // Show the full site with admin panel if authenticated
   return (
     <AuthProvider>
+      <AdminPanel onLogout={logout} />
       <Router>
         <Routes>
           <Route path="/" element={
@@ -307,7 +331,11 @@ function App() {
         </Routes>
       </Router>
     </AuthProvider>
-  )
+  );
+}
+
+function App() {
+  return <AppContent />;
 }
 
 export default App

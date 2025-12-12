@@ -627,6 +627,17 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           {/* Month Selector */}
           <div className="mb-8 text-center">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              Explore National Parks by Season
+            </h2>
+            <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
+              Discover the best times to visit America's National Parks. Select a month to see which parks are perfect for off-season travel.
+            </p>
+            
+            <div className="flex items-center justify-center gap-2 mb-4">
+              <Calendar className="w-5 h-5 text-blue-600" />
+              <span className="font-medium text-gray-700">Select Month:</span>
+            </div>
             
             <div className="flex flex-wrap justify-center gap-2 max-w-4xl mx-auto">
               {months.map((month) => (
