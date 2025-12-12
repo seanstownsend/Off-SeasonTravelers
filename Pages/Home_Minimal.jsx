@@ -609,13 +609,25 @@ export default function Home() {
         user={user}
       />
 
-      {/* Space for Banner Image */}
+      {/* Banner Image */}
       <div className="bg-gradient-to-br from-slate-50 via-blue-50/30 to-teal-50/20 py-4">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="bg-gray-100 border-2 border-dashed border-gray-300 rounded-xl p-8 text-center text-gray-500">
-            <div className="text-4xl mb-2">🖼️</div>
-            <p className="text-lg font-medium">Banner Image Placeholder</p>
-            <p className="text-sm">Beautiful National Parks landscape image goes here</p>
+          <div className="rounded-xl overflow-hidden shadow-lg">
+            <img 
+              src="/banner_photo.JPG" 
+              alt="Beautiful National Parks landscape" 
+              className="w-full h-64 md:h-80 lg:h-96 object-cover"
+              onError={(e) => {
+                console.log('Image failed to load:', e.target.src);
+                e.target.style.display = 'none';
+                e.target.nextElementSibling.style.display = 'block';
+              }}
+            />
+            <div className="bg-gray-100 border-2 border-dashed border-gray-300 rounded-xl p-8 text-center text-gray-500 hidden">
+              <div className="text-4xl mb-2">🖼️</div>
+              <p className="text-lg font-medium">Banner Image Not Found</p>
+              <p className="text-sm">Looking for: /banner_photo.JPG</p>
+            </div>
           </div>
         </div>
       </div>
