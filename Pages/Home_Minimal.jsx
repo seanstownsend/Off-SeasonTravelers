@@ -617,17 +617,7 @@ export default function Home() {
               src="/banner_photo.JPG" 
               alt="Beautiful National Parks landscape" 
               className="w-full h-64 md:h-80 lg:h-96 object-cover"
-              onError={(e) => {
-                console.log('Image failed to load:', e.target.src);
-                e.target.style.display = 'none';
-                e.target.nextElementSibling.style.display = 'block';
-              }}
             />
-            <div className="bg-gray-100 border-2 border-dashed border-gray-300 rounded-xl p-8 text-center text-gray-500 hidden">
-              <div className="text-4xl mb-2">🖼️</div>
-              <p className="text-lg font-medium">Banner Image Not Found</p>
-              <p className="text-sm">Looking for: /banner_photo.JPG</p>
-            </div>
           </div>
         </div>
       </div>
