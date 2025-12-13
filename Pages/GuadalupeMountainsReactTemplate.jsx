@@ -344,30 +344,59 @@ const GuadalupeMountainsReactTemplate = () => {
             <p style={{ color: '#475569', marginBottom: '1.5rem', fontSize: '1.1rem' }}>
               Ready to plan your ultimate Guadalupe Mountains National Park off-season adventure? Our detailed itinerary covers everything from peak climbing to canyon exploration.
             </p>
-            <a 
-              href="/guadalupe-mountains-itinerary"
-              style={{
-                background: 'linear-gradient(135deg, #8b5cf6, #a78bfa)',
-                color: 'white',
-                padding: '0.75rem 2rem',
-                borderRadius: '0.5rem',
-                textDecoration: 'none',
-                fontWeight: '600',
-                display: 'inline-block',
-                boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
-                transition: 'all 0.3s ease'
-              }}
-              onMouseEnter={(e) => {
-                e.target.style.transform = 'translateY(-2px)';
-                e.target.style.boxShadow = '0 8px 15px -3px rgba(0, 0, 0, 0.1)';
-              }}
-              onMouseLeave={(e) => {
-                e.target.style.transform = 'translateY(0)';
-                e.target.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)';
-              }}
-            >
-              View Complete Guadalupe Mountains Itinerary →
-            </a>
+            <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+              <a 
+                href="/guadalupe-mountains-itinerary"
+                style={{
+                  background: 'linear-gradient(135deg, #8b5cf6, #a78bfa)',
+                  color: 'white',
+                  padding: '0.75rem 2rem',
+                  borderRadius: '0.5rem',
+                  textDecoration: 'none',
+                  fontWeight: '600',
+                  display: 'inline-block',
+                  boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
+                  transition: 'all 0.3s ease'
+                }}
+                onMouseEnter={(e) => {
+                  e.target.style.transform = 'translateY(-2px)';
+                  e.target.style.boxShadow = '0 8px 15px -3px rgba(0, 0, 0, 0.1)';
+                }}
+                onMouseLeave={(e) => {
+                  e.target.style.transform = 'translateY(0)';
+                  e.target.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)';
+                }}
+              >
+                View Complete Guadalupe Mountains Itinerary →
+              </a>
+              
+              <a 
+                href="https://www.nps.gov/gumo/index.htm"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  background: 'linear-gradient(135deg, #059669, #22c55e)',
+                  color: 'white',
+                  padding: '0.75rem 2rem',
+                  borderRadius: '0.5rem',
+                  textDecoration: 'none',
+                  fontWeight: '600',
+                  display: 'inline-block',
+                  boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
+                  transition: 'all 0.3s ease'
+                }}
+                onMouseEnter={(e) => {
+                  e.target.style.transform = 'translateY(-2px)';
+                  e.target.style.boxShadow = '0 8px 15px -3px rgba(0, 0, 0, 0.1)';
+                }}
+                onMouseLeave={(e) => {
+                  e.target.style.transform = 'translateY(0)';
+                  e.target.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)';
+                }}
+              >
+                Official NPS Page ↗
+              </a>
+            </div>
           </section>
         </main>
 
