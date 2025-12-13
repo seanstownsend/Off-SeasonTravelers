@@ -82,11 +82,11 @@ export default function HeroSection({
         <div className="text-center max-w-4xl mx-auto">
           <div className="flex items-center justify-center gap-4 mb-6">
             <Trees className="w-12 h-12 text-green-600" />
-            <span className="!text-black font-semibold text-3xl">OffSeason Travel</span>
+            <span className="!text-black font-semibold text-3xl">Off-Season Travelers</span>
           </div>
           
           <p className="text-xl md:text-2xl !text-black mb-4 leading-relaxed max-w-3xl mx-auto">
-            The World is yours to explore in the OffSeason.
+            Helping you plan your next trip to America's National Parks in the off-season.
           </p>
         </div>
       </div>
