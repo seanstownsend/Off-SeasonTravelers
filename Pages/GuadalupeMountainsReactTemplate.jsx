@@ -375,7 +375,7 @@ const GuadalupeMountainsReactTemplate = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
-                  background: 'linear-gradient(135deg, #059669, #22c55e)',
+                  background: 'linear-gradient(135deg, #8b5cf6, #a78bfa)',
                   color: 'white',
                   padding: '0.75rem 2rem',
                   borderRadius: '0.5rem',
