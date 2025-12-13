@@ -1132,3 +1132,46 @@ body {
     text-align: center;
   }
 }
+
+/* Month Selector Styles */
+.month-bar {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.month-btn {
+  flex: 0 0 auto;
+  padding: 12px 22px;
+  border-radius: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+  cursor: pointer;
+}
+
+.month-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* Earthy off-season color palette */
+.jan { background: #556f7a; }
+.feb { background: #4f6873; }
+.mar { background: #6e7f52; }
+.apr { background: #a6763c; }
+.may { background: #b48a3f; }
+.jun { background: #7a8f6a; }
+.jul { background: #9a623c; }
+.aug { background: #c0703f; }
+.sep { background: #9b6a3c; }
+.oct { background: #6f6349; }
+.nov { background: #4e665a; }
+.dec { background: #5a6267; }

@@ -80,14 +80,6 @@ export default function HeroSection({
       
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-12 md:py-16">
         <div className="text-center max-w-4xl mx-auto">
-          <div className="flex items-center justify-center gap-4 mb-6">
-            <Trees className="w-12 h-12 text-green-600" />
-            <span className="!text-black font-semibold text-3xl">Off-Season Travelers</span>
-          </div>
-          
-          <p className="text-xl md:text-2xl !text-black mb-4 leading-relaxed max-w-3xl mx-auto">
-            Helping you plan your next trip to America's National Parks in the off-season.
-          </p>
         </div>
       </div>
       

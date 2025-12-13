@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { createPageUrl } from './utils.js'
-import { Compass, Calendar, MapPin, Trees, Menu, X, Globe } from 'lucide-react'
+import { Compass, Calendar, MapPin, Trees, Menu, X, Globe, Pencil } from 'lucide-react'
 
 const navigationItems = [
   {
@@ -12,9 +12,9 @@ const navigationItems = [
     description: "Find your perfect off-season destination"
   },
   {
-    title: "Parks", 
+    title: "Planning Tools", 
     url: createPageUrl("ByLocation"),
-    icon: MapPin,
+    icon: Pencil,
     description: "Browse all 62 National Parks"
   },
   {

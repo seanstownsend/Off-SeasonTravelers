@@ -614,7 +614,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="rounded-xl overflow-hidden shadow-lg">
             <img 
-              src="/banner_photo.JPG" 
+              src="/OST_Banner.png" 
               alt="Beautiful National Parks landscape" 
               className="w-full h-64 md:h-80 lg:h-96 object-cover"
             />
@@ -627,20 +627,19 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           {/* Month Selector */}
           <div className="mb-8 text-center">            
-            <div className="flex flex-wrap justify-center gap-2 max-w-4xl mx-auto">
-              {months.map((month) => (
-                <button
-                  key={month.value}
-                  onClick={() => setSelectedMonth(month.value)}
-                  className={`px-4 py-2 rounded-lg border-2 transition-all duration-200 font-medium ${
-                    selectedMonth === month.value
-                      ? 'bg-blue-600 text-white border-blue-600 shadow-lg'
-                      : 'bg-white text-gray-700 border-gray-200 hover:border-blue-300 hover:bg-blue-50'
-                  }`}
-                >
-                  {month.label}
-                </button>
-              ))}
+            <div className="month-bar">
+              <a className={`month-btn jan ${selectedMonth === 'jan' ? 'active' : ''}`} onClick={() => setSelectedMonth('jan')}>January</a>
+              <a className={`month-btn feb ${selectedMonth === 'feb' ? 'active' : ''}`} onClick={() => setSelectedMonth('feb')}>February</a>
+              <a className={`month-btn mar ${selectedMonth === 'mar' ? 'active' : ''}`} onClick={() => setSelectedMonth('mar')}>March</a>
+              <a className={`month-btn apr ${selectedMonth === 'apr' ? 'active' : ''}`} onClick={() => setSelectedMonth('apr')}>April</a>
+              <a className={`month-btn may ${selectedMonth === 'may' ? 'active' : ''}`} onClick={() => setSelectedMonth('may')}>May</a>
+              <a className={`month-btn jun ${selectedMonth === 'jun' ? 'active' : ''}`} onClick={() => setSelectedMonth('jun')}>June</a>
+              <a className={`month-btn jul ${selectedMonth === 'jul' ? 'active' : ''}`} onClick={() => setSelectedMonth('jul')}>July</a>
+              <a className={`month-btn aug ${selectedMonth === 'aug' ? 'active' : ''}`} onClick={() => setSelectedMonth('aug')}>August</a>
+              <a className={`month-btn sep ${selectedMonth === 'sep' ? 'active' : ''}`} onClick={() => setSelectedMonth('sep')}>September</a>
+              <a className={`month-btn oct ${selectedMonth === 'oct' ? 'active' : ''}`} onClick={() => setSelectedMonth('oct')}>October</a>
+              <a className={`month-btn nov ${selectedMonth === 'nov' ? 'active' : ''}`} onClick={() => setSelectedMonth('nov')}>November</a>
+              <a className={`month-btn dec ${selectedMonth === 'dec' ? 'active' : ''}`} onClick={() => setSelectedMonth('dec')}>December</a>
             </div>
           </div>
 
@@ -707,34 +706,6 @@ export default function Home() {
                   }}
                 />
               )}
-            </div>
-
-            {/* Map Legend */}
-            <div className="mt-4 bg-gray-50 rounded-lg p-4">
-              <h4 className="font-semibold text-gray-900 mb-3 text-center">Season Legend</h4>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div className="flex items-center gap-3 p-3 bg-green-50 rounded-lg">
-                  <div className="w-4 h-4 bg-green-500 rounded-full"></div>
-                  <div>
-                    <div className="font-medium text-green-800">Off-Season</div>
-                    <div className="text-sm text-green-600">Fewer crowds • Lower prices</div>
-                  </div>
-                </div>
-                <div className="flex items-center gap-3 p-3 bg-yellow-50 rounded-lg">
-                  <div className="w-4 h-4 bg-yellow-500 rounded-full"></div>
-                  <div>
-                    <div className="font-medium text-yellow-800">Shoulder Season</div>
-                    <div className="text-sm text-yellow-600">Moderate crowds • Good value</div>
-                  </div>
-                </div>
-                <div className="flex items-center gap-3 p-3 bg-red-50 rounded-lg">
-                  <div className="w-4 h-4 bg-red-500 rounded-full"></div>
-                  <div>
-                    <div className="font-medium text-red-800">Peak Season</div>
-                    <div className="text-sm text-red-600">High crowds • Premium prices</div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
