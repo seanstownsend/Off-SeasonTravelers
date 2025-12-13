@@ -47,15 +47,7 @@ const UnderConstruction = ({ onAuthenticate }) => {
               src="/OST_Logo.PNG" 
               alt="Off-Season Travelers Logo" 
               className="w-48 h-48 mx-auto object-contain bg-white/5 rounded-lg p-4"
-              onError={(e) => {
-                console.log('Logo failed to load:', e.target.src);
-                e.target.style.display = 'none';
-                e.target.nextElementSibling.style.display = 'block';
-              }}
             />
-            <div className="w-48 h-48 mx-auto bg-white/10 rounded-lg flex items-center justify-center text-white text-6xl hidden">
-              🏔️
-            </div>
           </div>
           <p className="text-xl text-blue-200 mb-6 leading-relaxed">
             We're crafting the ultimate guide to America's National Parks during their off-seasons. 
