@@ -51,7 +51,7 @@ const UnderConstruction = ({ onAuthenticate }) => {
           </div>
           <p className="text-xl text-blue-200 mb-6 leading-relaxed">
             We're crafting the ultimate guide to America's National Parks during their off-seasons. 
-            Discover Americas gems, avoid crowds, and save money on your next adventure.
+            Discover America's gems, avoid crowds, and save money on your next adventure.
           </p>
         </div>
 
@@ -59,14 +59,14 @@ const UnderConstruction = ({ onAuthenticate }) => {
         {!showLogin ? (
           <button
             onClick={() => setShowLogin(true)}
-            className="inline-flex items-center px-6 py-3 bg-white/10 hover:bg-white/20 border border-white/30 rounded-lg text-white transition-all duration-200 backdrop-blur-sm"
+            className="inline-flex items-center px-6 py-3 bg-white/10 hover:bg-white/20 border border-white/30 rounded-lg text-black transition-all duration-200 backdrop-blur-sm"
           >
             <Lock className="w-4 h-4 mr-2" />
             Preview Access
           </button>
         ) : (
           <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/20 max-w-md mx-auto">
-            <h3 className="text-black font-semibold mb-4 flex items-center justify-center">
+            <h3 className="text-gray-900 font-semibold mb-4 flex items-center justify-center">
               <Lock className="w-5 h-5 mr-2" />
               Enter Access Code
             </h3>
@@ -77,7 +77,7 @@ const UnderConstruction = ({ onAuthenticate }) => {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="Access code..."
-                  className="w-full px-4 py-3 bg-white/10 border border-white/30 rounded-lg text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-transparent pr-12"
+                  className="w-full px-4 py-3 bg-white/10 border border-white/30 rounded-lg text-gray-900 placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-transparent pr-12"
                   disabled={isLoading}
                 />
                 <button
@@ -102,7 +102,7 @@ const UnderConstruction = ({ onAuthenticate }) => {
                     setPassword('');
                     setError('');
                   }}
-                  className="flex-1 px-4 py-3 bg-white/5 hover:bg-white/10 border border-white/20 rounded-lg text-black transition-all duration-200"
+                  className="flex-1 px-4 py-3 bg-white/5 hover:bg-white/10 border border-white/20 rounded-lg text-gray-900 transition-all duration-200"
                   disabled={isLoading}
                 >
                   Cancel
@@ -110,7 +110,7 @@ const UnderConstruction = ({ onAuthenticate }) => {
                 <button
                   type="submit"
                   disabled={isLoading || !password.trim()}
-                  className="flex-1 px-4 py-3 bg-emerald-600 hover:bg-emerald-700 disabled:bg-emerald-600/50 rounded-lg text-black font-medium transition-all duration-200 disabled:cursor-not-allowed"
+                  className="flex-1 px-4 py-3 bg-emerald-600 hover:bg-emerald-700 disabled:bg-emerald-600/50 rounded-lg text-white font-medium transition-all duration-200 disabled:cursor-not-allowed"
                 >
                   {isLoading ? (
                     <div className="flex items-center justify-center">
