@@ -42,11 +42,15 @@ export default function Layout({ children, currentPageName }) {
         {/* Header */}
         <div className="border-b border-slate-200/60 p-6">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-teal-600 rounded-xl flex items-center justify-center shadow-lg">
-              <Compass className="w-6 h-6 text-white" />
+            <div className="w-10 h-10 flex items-center justify-center">
+              <img 
+                src="/OST_Logo.PNG" 
+                alt="Off-Season Travelers Logo" 
+                className="w-10 h-10 object-contain"
+              />
             </div>
             <div>
-              <h2 className="font-bold text-slate-900 text-lg">OffSeason</h2>
+              <h2 className="font-bold text-slate-900 text-lg">Off-Season Travelers</h2>
               <p className="text-xs text-slate-500 font-medium">Discover Hidden Gems</p>
             </div>
           </div>
