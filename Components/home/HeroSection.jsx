@@ -78,19 +78,16 @@ export default function HeroSection({
         </div>
       </div>
       
-      <div className="relative z-10 max-w-7xl mx-auto px-6 py-24 md:py-32">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 py-12 md:py-16">
         <div className="text-center max-w-4xl mx-auto">
           <div className="flex items-center justify-center gap-4 mb-6">
             <Trees className="w-12 h-12 text-green-600" />
             <span className="!text-black font-semibold text-3xl">OffSeason Travel</span>
           </div>
           
-          <p className="text-xl md:text-2xl !text-black mb-8 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl !text-black mb-4 leading-relaxed max-w-3xl mx-auto">
             The World is yours to explore in the OffSeason.
           </p>
-          
-          {/* Vertical spacing */}
-          <div style={{ height: '120px' }}></div>
         </div>
       </div>
       

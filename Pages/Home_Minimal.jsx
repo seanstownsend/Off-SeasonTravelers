@@ -610,7 +610,7 @@ export default function Home() {
       />
 
       {/* Banner Image */}
-      <div className="bg-gradient-to-br from-slate-50 via-blue-50/30 to-teal-50/20 py-4">
+      <div className="bg-gradient-to-br from-slate-50 via-blue-50/30 to-teal-50/20 py-2">
         <div className="max-w-7xl mx-auto px-6">
           <div className="rounded-xl overflow-hidden shadow-lg">
             <img 
