@@ -43,42 +43,10 @@ const UnderConstruction = ({ onAuthenticate }) => {
         {/* Under Construction Message */}
         <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 mb-8 border border-white/20">
           <div className="text-6xl mb-6">🏗️</div>
-          <h2 className="text-3xl font-bold text-white mb-4">
-            Something Amazing is Coming
-          </h2>
           <p className="text-xl text-blue-200 mb-6 leading-relaxed">
             We're crafting the ultimate guide to America's National Parks during their best-kept secret seasons. 
             Discover hidden gems, avoid crowds, and save money on your next adventure.
           </p>
-          
-          {/* Features Preview */}
-          <div className="grid md:grid-cols-3 gap-4 mb-8">
-            <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-              <MapPin className="w-8 h-8 text-emerald-400 mx-auto mb-3" />
-              <h3 className="text-white font-semibold mb-2">Interactive Maps</h3>
-              <p className="text-blue-200 text-sm">Explore 63+ National Parks with seasonal insights</p>
-            </div>
-            <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-              <Calendar className="w-8 h-8 text-emerald-400 mx-auto mb-3" />
-              <h3 className="text-white font-semibold mb-2">Detailed Itineraries</h3>
-              <p className="text-blue-200 text-sm">Complete travel guides for off-season adventures</p>
-            </div>
-            <div className="bg-white/5 rounded-lg p-4 border border-white/10">
-              <div className="text-2xl mx-auto mb-3">💰</div>
-              <h3 className="text-white font-semibold mb-2">Money-Saving Tips</h3>
-              <p className="text-blue-200 text-sm">Discover the best deals and hidden savings</p>
-            </div>
-          </div>
-
-          {/* Launch Timeline */}
-          <div className="bg-gradient-to-r from-emerald-500/20 to-blue-500/20 rounded-lg p-6 mb-6">
-            <h3 className="text-white font-semibold mb-3">🚀 Coming Soon</h3>
-            <p className="text-blue-200">
-              Join thousands of smart travelers who've already discovered the magic of off-season exploration.
-              <br />
-              <span className="text-emerald-300 font-medium">Full launch expected January 2025</span>
-            </p>
-          </div>
         </div>
 
         {/* Login Section */}
