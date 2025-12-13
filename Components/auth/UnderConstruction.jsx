@@ -66,7 +66,7 @@ const UnderConstruction = ({ onAuthenticate }) => {
           </button>
         ) : (
           <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/20 max-w-md mx-auto">
-            <h3 className="text-white font-semibold mb-4 flex items-center justify-center">
+            <h3 className="text-black font-semibold mb-4 flex items-center justify-center">
               <Lock className="w-5 h-5 mr-2" />
               Enter Access Code
             </h3>
@@ -77,13 +77,13 @@ const UnderConstruction = ({ onAuthenticate }) => {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="Access code..."
-                  className="w-full px-4 py-3 bg-white/10 border border-white/30 rounded-lg text-white placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-transparent pr-12"
+                  className="w-full px-4 py-3 bg-white/10 border border-white/30 rounded-lg text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-transparent pr-12"
                   disabled={isLoading}
                 />
                 <button
                   type="button"
                   onClick={() => setShowPassword(!showPassword)}
-                  className="absolute right-3 top-1/2 transform -translate-y-1/2 text-blue-200 hover:text-white transition-colors"
+                  className="absolute right-3 top-1/2 transform -translate-y-1/2 text-black hover:text-gray-600 transition-colors"
                   disabled={isLoading}
                 >
                   {showPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
@@ -102,7 +102,7 @@ const UnderConstruction = ({ onAuthenticate }) => {
                     setPassword('');
                     setError('');
                   }}
-                  className="flex-1 px-4 py-3 bg-white/5 hover:bg-white/10 border border-white/20 rounded-lg text-white transition-all duration-200"
+                  className="flex-1 px-4 py-3 bg-white/5 hover:bg-white/10 border border-white/20 rounded-lg text-black transition-all duration-200"
                   disabled={isLoading}
                 >
                   Cancel
@@ -110,7 +110,7 @@ const UnderConstruction = ({ onAuthenticate }) => {
                 <button
                   type="submit"
                   disabled={isLoading || !password.trim()}
-                  className="flex-1 px-4 py-3 bg-emerald-600 hover:bg-emerald-700 disabled:bg-emerald-600/50 rounded-lg text-white font-medium transition-all duration-200 disabled:cursor-not-allowed"
+                  className="flex-1 px-4 py-3 bg-emerald-600 hover:bg-emerald-700 disabled:bg-emerald-600/50 rounded-lg text-black font-medium transition-all duration-200 disabled:cursor-not-allowed"
                 >
                   {isLoading ? (
                     <div className="flex items-center justify-center">
