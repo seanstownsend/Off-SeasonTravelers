@@ -35,14 +35,20 @@ const UnderConstruction = ({ onAuthenticate }) => {
         {/* Logo and Brand */}
         <div className="flex items-center justify-center mb-8">
           <Trees className="w-12 h-12 text-emerald-400 mr-3" />
-          <h1 className="text-4xl font-bold text-white">
+          <h1 className="text-4xl font-bold text-black">
             Off-Season Travelers
           </h1>
         </div>
 
         {/* Under Construction Message */}
         <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 mb-8 border border-white/20">
-          <div className="text-6xl mb-6">🏗️</div>
+          <div className="mb-6">
+            <img 
+              src="/OST_Logo.PNG" 
+              alt="Off-Season Travelers Logo" 
+              className="w-32 h-32 mx-auto object-contain"
+            />
+          </div>
           <p className="text-xl text-blue-200 mb-6 leading-relaxed">
             We're crafting the ultimate guide to America's National Parks during their best-kept secret seasons. 
             Discover hidden gems, avoid crowds, and save money on your next adventure.
