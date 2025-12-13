@@ -102,29 +102,15 @@ const GuadalupeMountainsReactTemplate = () => {
 
             <div style={{ textAlign: 'center', marginTop: '2rem' }}>
               <div style={{
+                background: '#f8fafc',
                 borderRadius: '0.5rem',
-                overflow: 'hidden',
-                boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)'
+                padding: '1rem',
+                border: '1px solid #e2e8f0',
+                fontSize: '0.9rem',
+                color: '#64748b'
               }}>
-                <img 
-                  src="/cactus GMNP.JPG" 
-                  alt="Guadalupe Mountains with desert peaks and fall foliage" 
-                  style={{
-                    width: '100%',
-                    height: 'auto',
-                    display: 'block'
-                  }}
-                />
-                <div style={{
-                  padding: '0.75rem',
-                  background: '#f8fafc',
-                  borderTop: '1px solid #e2e8f0',
-                  fontSize: '0.9rem',
-                  color: '#64748b',
-                  fontStyle: 'italic'
-                }}>
-                  Rugged desert peaks and autumn colors in McKittrick Canyon during off-season tranquility
-                </div>
+                [Guadalupe Mountains with desert peaks and fall foliage photo]<br />
+                <em>Caption: Rugged desert peaks and autumn colors in McKittrick Canyon during off-season tranquility</em>
               </div>
             </div>
           </section>
