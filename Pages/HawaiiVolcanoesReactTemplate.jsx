@@ -11,7 +11,7 @@ const HawaiiVolcanoesReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #dc2626, #f97316)',
+        background: 'linear-gradient(135deg, #c0703f, #d1814d)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,7 +36,7 @@ const HawaiiVolcanoesReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#dc2626',
+              color: '#ea580c',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
               borderBottom: '3px solid #f97316',

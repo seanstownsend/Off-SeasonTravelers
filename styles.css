@@ -526,6 +526,60 @@ body {
   }
 }
 
+/* Sidebar Navigation Styles */
+.sidebar {
+  width: 260px;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #2f3e46, #354f52);
+  padding: 24px 18px;
+  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar-header {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #e9edc9;
+  margin-bottom: 28px;
+  padding-left: 6px;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.sidebar-btn {
+  display: block;
+  padding: 14px 18px;
+  border-radius: 14px;
+  background: rgba(233, 237, 201, 0.08);
+  color: #fefae0;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.sidebar-btn:hover {
+  background: rgba(233, 237, 201, 0.18);
+  transform: translateX(4px);
+}
+
+.sidebar-btn.primary {
+  background: #a68a64;
+  color: #1d2b2f;
+}
+
+.sidebar-btn.primary:hover {
+  background: #b99b74;
+}
+
 /* Background Gradients */
 .bg-gradient-to-br {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
@@ -827,7 +881,7 @@ body {
 
 /* Header Section */
 .itinerary-header {
-  background: linear-gradient(135deg, var(--color-primary-teal), var(--color-brand-teal));
+  background: linear-gradient(90deg, #2f3e46, #354f52);
   color: white;
   padding: 3rem 2rem;
   text-align: center;
@@ -878,7 +932,7 @@ body {
 }
 
 .day-header {
-  background: linear-gradient(135deg, var(--color-primary-blue), var(--color-brand-blue));
+  background: linear-gradient(90deg, #a68a64, #b99b74);
   color: white;
   padding: 2rem;
   text-align: center;
@@ -924,7 +978,7 @@ body {
 }
 
 .activity-time {
-  background: var(--color-primary-teal);
+  background: #2f3e46;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -962,20 +1016,20 @@ body {
 }
 
 .activity-content strong {
-  color: var(--color-primary-teal);
+  color: #2f3e46;
 }
 
 /* Booking Section */
 .booking-section {
-  background: rgba(20, 184, 166, 0.05);
-  border: 1px solid rgba(20, 184, 166, 0.2);
+  background: rgba(166, 138, 100, 0.1);
+  border: 1px solid rgba(166, 138, 100, 0.3);
   border-radius: 8px;
   padding: 1.5rem;
   margin: 1.5rem 0;
 }
 
 .booking-section h4 {
-  color: var(--color-primary-teal);
+  color: #2f3e46;
   margin-bottom: 0.5rem;
   font-size: 1.25rem;
 }
@@ -993,38 +1047,40 @@ body {
   text-decoration: none;
   font-weight: 500;
   transition: all 0.3s ease;
-  border: 2px solid var(--color-primary-teal);
-  color: var(--color-primary-teal);
+  border: 2px solid #a68a64;
+  color: #2f3e46;
   background: white;
 }
 
 .book-btn:hover {
-  background: var(--color-primary-teal);
+  background: linear-gradient(90deg, #a68a64, #b99b74);
+  border-color: #a68a64;
   color: white;
   transform: translateY(-1px);
 }
 
 .book-btn.primary {
-  background: var(--color-primary-teal);
+  background: linear-gradient(90deg, #a68a64, #b99b74);
+  border-color: #a68a64;
   color: white;
 }
 
 .book-btn.primary:hover {
-  background: var(--color-primary-blue);
-  border-color: var(--color-primary-blue);
+  background: linear-gradient(90deg, #2f3e46, #354f52);
+  border-color: #2f3e46;
 }
 
 /* Tips Section */
 .tips-section {
-  background: rgba(59, 130, 246, 0.05);
-  border: 1px solid rgba(59, 130, 246, 0.2);
+  background: rgba(47, 62, 70, 0.1);
+  border: 1px solid rgba(47, 62, 70, 0.3);
   border-radius: 8px;
   padding: 1.5rem;
   margin: 1.5rem 0;
 }
 
 .tips-section h4 {
-  color: var(--color-primary-blue);
+  color: #2f3e46;
   margin-bottom: 1rem;
   font-size: 1.25rem;
 }
@@ -1062,7 +1118,7 @@ body {
 
 /* Footer CTA */
 .itinerary-footer {
-  background: linear-gradient(135deg, var(--color-primary-blue), var(--color-primary-teal));
+  background: linear-gradient(135deg, #2f3e46, #354f52);
   color: white;
   padding: 3rem 2rem;
   text-align: center;
@@ -1073,29 +1129,34 @@ body {
 .cta-section h3 {
   font-size: 1.75rem;
   margin-bottom: 0.5rem;
+  color: white;
 }
 
 .cta-section p {
   font-size: 1.1rem;
   opacity: 0.9;
   margin-bottom: 1.5rem;
+  color: white;
 }
 
 .cta-button {
   display: inline-block;
-  background: white;
-  color: var(--color-primary-blue);
+  background: linear-gradient(135deg, #a68a64, #b99b74);
+  color: white;
   padding: 1rem 2rem;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
   font-size: 1.1rem;
   transition: all 0.3s ease;
+  border: 2px solid transparent;
 }
 
 .cta-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, #b99b74, #c7a882);
+  border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 /* Responsive Design */

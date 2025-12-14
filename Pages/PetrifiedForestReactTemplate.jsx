@@ -11,7 +11,7 @@ const PetrifiedForestReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #7c2d12, #ea580c)',
+        background: 'linear-gradient(135deg, #9a623c, #ab734a)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const PetrifiedForestReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#7c2d12',
+              color: '#a6763c',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #ea580c',
+              borderBottom: '3px solid #b8854a',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights

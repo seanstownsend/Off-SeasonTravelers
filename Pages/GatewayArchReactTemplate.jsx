@@ -11,7 +11,7 @@ const GatewayArchReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #059669, #22c55e)',
+        background: 'linear-gradient(135deg, #a6763c, #b8854a)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',

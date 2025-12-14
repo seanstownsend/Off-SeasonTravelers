@@ -11,7 +11,7 @@ const NorthCascadesReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #1e40af, #3b82f6)',
+        background: 'linear-gradient(135deg, #4f6873, #5d7681)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',

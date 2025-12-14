@@ -28,7 +28,7 @@ const GenericParkTemplate = ({ parkSlug }) => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #059669, #22c55e)',
+        background: 'linear-gradient(135deg, #6e7f52, #7c8d60)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -53,10 +53,10 @@ const GenericParkTemplate = ({ parkSlug }) => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#059669',
+              color: '#6e7f52',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #22c55e',
+              borderBottom: '3px solid #7c8d60',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -72,39 +72,39 @@ const GenericParkTemplate = ({ parkSlug }) => {
               margin: '1.5rem 0'
             }}>
               <div style={{
-                background: '#f9fafb',
+                background: 'linear-gradient(135deg, #f7f9f5, #f1f5ed)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #e5e7eb'
+                border: '1px solid #d4d4aa'
               }}>
-                <h3 style={{ color: '#15803d', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🌲 Peaceful Wilderness</h3>
+                <h3 style={{ color: '#6e7f52', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🌲 Peaceful Wilderness</h3>
                 <p>{parkData.peacefulDescription}</p>
               </div>
               <div style={{
-                background: '#f9fafb',
+                background: 'linear-gradient(135deg, #f7f9f5, #f1f5ed)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #e5e7eb'
+                border: '1px solid #d4d4aa'
               }}>
-                <h3 style={{ color: '#15803d', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>💰 Significant Savings</h3>
+                <h3 style={{ color: '#6e7f52', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>💰 Significant Savings</h3>
                 <p>Save up to {parkData.savingsPercentage}% on accommodations and discover local deals unavailable during peak season.</p>
               </div>
               <div style={{
-                background: '#f9fafb',
+                background: 'linear-gradient(135deg, #f7f9f5, #f1f5ed)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #e5e7eb'
+                border: '1px solid #d4d4aa'
               }}>
-                <h3 style={{ color: '#15803d', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>📸 Unique Photo Opportunities</h3>
+                <h3 style={{ color: '#6e7f52', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>📸 Unique Photo Opportunities</h3>
                 <p>{parkData.photoOpportunities}</p>
               </div>
               <div style={{
-                background: '#f9fafb',
+                background: 'linear-gradient(135deg, #f7f9f5, #f1f5ed)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #e5e7eb'
+                border: '1px solid #d4d4aa'
               }}>
-                <h3 style={{ color: '#15803d', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🦌 Enhanced Wildlife Viewing</h3>
+                <h3 style={{ color: '#6e7f52', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🦌 Enhanced Wildlife Viewing</h3>
                 <p>{parkData.wildlifeDescription}</p>
               </div>
             </div>
@@ -126,10 +126,10 @@ const GenericParkTemplate = ({ parkSlug }) => {
           {/* Off-Season Trade-Offs Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#059669',
+              color: '#6e7f52',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #22c55e',
+              borderBottom: '3px solid #7c8d60',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Trade-Offs
@@ -145,12 +145,12 @@ const GenericParkTemplate = ({ parkSlug }) => {
               margin: '1.5rem 0'
             }}>
               <div style={{
-                background: '#f0fdf4',
+                background: 'linear-gradient(135deg, #f7f9f5, #f1f5ed)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #22c55e'
+                border: '1px solid #7c8d60'
               }}>
-                <h3 style={{ color: '#15803d', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>✅ Advantages</h3>
+                <h3 style={{ color: '#6e7f52', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>✅ Advantages</h3>
                 <ul style={{ paddingLeft: '1.5rem' }}>
                   {parkData.advantages.map((advantage, index) => (
                     <li key={index}>{advantage}</li>
@@ -160,12 +160,12 @@ const GenericParkTemplate = ({ parkSlug }) => {
                 </ul>
               </div>
               <div style={{
-                background: '#fef3c7',
+                background: 'linear-gradient(135deg, #fef8f0, #fdf4e8)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #f59e0b'
+                border: '1px solid #a6763c'
               }}>
-                <h3 style={{ color: '#92400e', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>⚠️ Considerations</h3>
+                <h3 style={{ color: '#a6763c', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>⚠️ Considerations</h3>
                 <ul style={{ paddingLeft: '1.5rem' }}>
                   {parkData.limitations.map((limitation, index) => (
                     <li key={index}>{limitation}</li>
@@ -181,10 +181,10 @@ const GenericParkTemplate = ({ parkSlug }) => {
           {/* Off-Season Weather Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#059669',
+              color: '#6e7f52',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #22c55e',
+              borderBottom: '3px solid #7c8d60',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Weather
@@ -245,10 +245,10 @@ const GenericParkTemplate = ({ parkSlug }) => {
           {/* Off-Season Tips Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#059669',
+              color: '#6e7f52',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #22c55e',
+              borderBottom: '3px solid #7c8d60',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Tips
@@ -270,10 +270,10 @@ const GenericParkTemplate = ({ parkSlug }) => {
           {/* Before You Go Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#059669',
+              color: '#6e7f52',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #22c55e',
+              borderBottom: '3px solid #7c8d60',
               paddingBottom: '0.5rem'
             }}>
               Before You Go
@@ -282,21 +282,21 @@ const GenericParkTemplate = ({ parkSlug }) => {
               Essential pre-trip checklist for your {parkData.name} off-season adventure:
             </p>
             
-            <h3 style={{ color: '#15803d', fontSize: '1.3rem', margin: '1.5rem 0 1rem 0' }}>Reservations & Permits</h3>
+            <h3 style={{ color: '#6e7f52', fontSize: '1.3rem', margin: '1.5rem 0 1rem 0' }}>Reservations & Permits</h3>
             <ul style={{ paddingLeft: '1.5rem', marginBottom: '1.5rem' }}>
               {parkData.reservationsPermits.map((item, index) => (
                 <li key={index}>{item}</li>
               ))}
             </ul>
 
-            <h3 style={{ color: '#15803d', fontSize: '1.3rem', margin: '1.5rem 0 1rem 0' }}>Gear & Equipment</h3>
+            <h3 style={{ color: '#6e7f52', fontSize: '1.3rem', margin: '1.5rem 0 1rem 0' }}>Gear & Equipment</h3>
             <ul style={{ paddingLeft: '1.5rem', marginBottom: '1.5rem' }}>
               {parkData.gearEquipment.map((item, index) => (
                 <li key={index}>{item}</li>
               ))}
             </ul>
 
-            <h3 style={{ color: '#15803d', fontSize: '1.3rem', margin: '1.5rem 0 1rem 0' }}>Safety Considerations</h3>
+            <h3 style={{ color: '#6e7f52', fontSize: '1.3rem', margin: '1.5rem 0 1rem 0' }}>Safety Considerations</h3>
             <ul style={{ paddingLeft: '1.5rem', marginBottom: '1.5rem' }}>
               {parkData.safetyConsiderations.map((item, index) => (
                 <li key={index}>{item}</li>
@@ -307,10 +307,10 @@ const GenericParkTemplate = ({ parkSlug }) => {
           {/* Itinerary Link Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#059669',
+              color: '#6e7f52',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #22c55e',
+              borderBottom: '3px solid #7c8d60',
               paddingBottom: '0.5rem'
             }}>
               4-5 Day Itinerary
@@ -323,7 +323,7 @@ const GenericParkTemplate = ({ parkSlug }) => {
               href={`/${parkSlug}-itinerary`}
               style={{
                 display: 'inline-block',
-                background: 'linear-gradient(135deg, #059669, #22c55e)',
+                background: 'linear-gradient(135deg, #6e7f52, #7c8d60)',
                 color: 'white',
                 textDecoration: 'none',
                 padding: '1rem 2rem',
@@ -342,10 +342,10 @@ const GenericParkTemplate = ({ parkSlug }) => {
           {/* React Feedback Form Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#059669',
+              color: '#6e7f52',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #22c55e',
+              borderBottom: '3px solid #7c8d60',
               paddingBottom: '0.5rem'
             }}>
               Visitor Feedback & Reviews

@@ -11,7 +11,7 @@ const WhiteSandsReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #0891b2, #06b6d4)',
+        background: 'linear-gradient(135deg, #6b7280, #9ca3af)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const WhiteSandsReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#0891b2',
+              color: '#6b7280',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #06b6d4',
+              borderBottom: '3px solid #9ca3af',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -56,12 +56,12 @@ const WhiteSandsReactTemplate = () => {
             }}>
               {/* Highlight 1 */}
               <div style={{
-                background: 'linear-gradient(135deg, #ecfeff, #cffafe)',
+                background: 'linear-gradient(135deg, #f9fafb, #f3f4f6)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #67e8f9'
+                border: '1px solid #d1d5db'
               }}>
-                <h3 style={{ color: '#0891b2', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#6b7280', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🏜️ Perfect Dune Weather
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -71,12 +71,12 @@ const WhiteSandsReactTemplate = () => {
 
               {/* Highlight 2 */}
               <div style={{
-                background: 'linear-gradient(135deg, #ecfeff, #cffafe)',
+                background: 'linear-gradient(135deg, #f9fafb, #f3f4f6)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #67e8f9'
+                border: '1px solid #d1d5db'
               }}>
-                <h3 style={{ color: '#0891b2', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#6b7280', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🌸 Wildflower Blooms
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -86,12 +86,12 @@ const WhiteSandsReactTemplate = () => {
 
               {/* Highlight 3 */}
               <div style={{
-                background: 'linear-gradient(135deg, #ecfeff, #cffafe)',
+                background: 'linear-gradient(135deg, #f9fafb, #f3f4f6)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #67e8f9'
+                border: '1px solid #d1d5db'
               }}>
-                <h3 style={{ color: '#0891b2', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#6b7280', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🦎 Unique Desert Wildlife
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>

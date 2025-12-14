@@ -11,7 +11,7 @@ const YellowstoneReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #059669, #22c55e)',
+        background: 'linear-gradient(135deg, #a16207, #d97706)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const YellowstoneReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#059669',
+              color: '#a16207',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #22c55e',
+              borderBottom: '3px solid #d97706',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -55,39 +55,39 @@ const YellowstoneReactTemplate = () => {
               margin: '1.5rem 0'
             }}>
               <div style={{
-                background: '#f9fafb',
+                background: 'linear-gradient(135deg, #fef3c7, #fbbf24)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #e5e7eb'
+                border: '1px solid #f59e0b'
               }}>
-                <h3 style={{ color: '#15803d', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🌲 Peaceful Wilderness</h3>
+                <h3 style={{ color: '#a16207', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🌲 Peaceful Wilderness</h3>
                 <p>Experience Yellowstone's iconic geysers, hot springs, and wildlife viewing areas without the summer crowds that can number over 30,000 visitors per day.</p>
               </div>
               <div style={{
-                background: '#f9fafb',
+                background: 'linear-gradient(135deg, #fef3c7, #fbbf24)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #e5e7eb'
+                border: '1px solid #f59e0b'
               }}>
-                <h3 style={{ color: '#15803d', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>💰 Significant Savings</h3>
+                <h3 style={{ color: '#a16207', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>💰 Significant Savings</h3>
                 <p>Save up to 60% on accommodations and discover local deals unavailable during peak season.</p>
               </div>
               <div style={{
-                background: '#f9fafb',
+                background: 'linear-gradient(135deg, #fef3c7, #fbbf24)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #e5e7eb'
+                border: '1px solid #f59e0b'
               }}>
-                <h3 style={{ color: '#15803d', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>📸 Unique Photo Opportunities</h3>
+                <h3 style={{ color: '#a16207', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>📸 Unique Photo Opportunities</h3>
                 <p>Capture stunning fall colors and spring wildlife activity, plus steam rising from hot springs in crisp air - without photobombers.</p>
               </div>
               <div style={{
-                background: '#f9fafb',
+                background: 'linear-gradient(135deg, #fef3c7, #fbbf24)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #e5e7eb'
+                border: '1px solid #f59e0b'
               }}>
-                <h3 style={{ color: '#15803d', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🦌 Enhanced Wildlife Viewing</h3>
+                <h3 style={{ color: '#a16207', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🦌 Enhanced Wildlife Viewing</h3>
                 <p>Elk bugling season in fall, bear activity before hibernation, and spring births make wildlife viewing exceptional during off-season months.</p>
               </div>
             </div>

@@ -11,7 +11,7 @@ const EvergladesReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #0891b2, #06b6d4)',
+        background: 'linear-gradient(135deg, #f59e0b, #d97706)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const EvergladesReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#0891b2',
+              color: '#d97706',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #06b6d4',
+              borderBottom: '3px solid #f59e0b',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -60,7 +60,7 @@ const EvergladesReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#0c4a6e', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🦎 Peak Wildlife Season</h3>
+                <h3 style={{ color: '#d97706', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🦎 Peak Wildlife Season</h3>
                 <p>Dry season concentrates wildlife around water sources, making it the best time for alligator, bird, and manatee viewing. Over 350 bird species are most active during these months.</p>
               </div>
               <div style={{
@@ -69,7 +69,7 @@ const EvergladesReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#0c4a6e', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🌡️ Perfect Weather</h3>
+                <h3 style={{ color: '#d97706', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🌡️ Perfect Weather</h3>
                 <p>Escape the summer humidity with comfortable 70-80°F days, low humidity, and minimal rainfall. No mosquitos or oppressive heat!</p>
               </div>
               <div style={{
@@ -78,7 +78,7 @@ const EvergladesReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#0c4a6e', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🚤 Optimal Boating</h3>
+                <h3 style={{ color: '#d97706', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🚤 Optimal Boating</h3>
                 <p>Calm waters and clear skies make this the perfect time for kayaking through mangrove tunnels and exploring Florida Bay.</p>
               </div>
               <div style={{
@@ -87,7 +87,7 @@ const EvergladesReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#0c4a6e', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>📸 Crystal Clear Photography</h3>
+                <h3 style={{ color: '#d97706', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>📸 Crystal Clear Photography</h3>
                 <p>Low humidity means better visibility for photographing wildlife, stunning sunsets, and the unique "River of Grass" landscape.</p>
               </div>
             </div>

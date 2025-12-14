@@ -11,7 +11,7 @@ const BigBendReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #a16207, #d97706)',
+        background: 'linear-gradient(135deg, #a16207, #92400e)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',

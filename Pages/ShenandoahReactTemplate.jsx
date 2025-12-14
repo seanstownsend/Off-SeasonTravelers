@@ -36,10 +36,10 @@ const ShenandoahReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#7c3aed',
+              color: '#8b4513',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #a855f7',
+              borderBottom: '3px solid #a0522d',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights

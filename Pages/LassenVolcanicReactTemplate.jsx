@@ -36,10 +36,10 @@ const LassenVolcanicReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#B91C1C',
+              color: '#ea580c',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #DC2626',
+              borderBottom: '3px solid #f97316',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights

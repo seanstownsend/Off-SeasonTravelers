@@ -11,7 +11,7 @@ const VoyageursReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #1e3a8a, #3b82f6)',
+        background: 'linear-gradient(135deg, #c0703f, #d1814d)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const VoyageursReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#1e3a8a',
+              color: '#475569',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #3b82f6',
+              borderBottom: '3px solid #64748b',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -60,7 +60,7 @@ const VoyageursReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#1d4ed8', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🛶 Pristine Waterways</h3>
+                <h3 style={{ color: '#475569', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🛶 Pristine Waterways</h3>
                 <p>Navigate historic fur trade routes across four major lakes with virtually no boat traffic. Experience the wilderness as voyageurs did centuries ago.</p>
               </div>
               <div style={{
@@ -69,7 +69,7 @@ const VoyageursReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#1d4ed8', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>💰 Exceptional Value</h3>
+                <h3 style={{ color: '#475569', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>💰 Exceptional Value</h3>
                 <p>Save significantly on accommodations in International Falls and Kabetogama. Enjoy reduced rates at resorts and better availability for waterfront lodging.</p>
               </div>
               <div style={{
@@ -78,7 +78,7 @@ const VoyageursReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#1d4ed8', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>📸 Spectacular Photography</h3>
+                <h3 style={{ color: '#475569', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>📸 Spectacular Photography</h3>
                 <p>Capture fall foliage reflections in crystal-clear lakes, dramatic skies, and wildlife without summer boat wakes disturbing the perfect shots.</p>
               </div>
               <div style={{
@@ -87,7 +87,7 @@ const VoyageursReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#1d4ed8', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🐻 Enhanced Wildlife Viewing</h3>
+                <h3 style={{ color: '#475569', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🐻 Enhanced Wildlife Viewing</h3>
                 <p>Spot black bears, bald eagles, loons, and other wildlife preparing for seasonal changes. Spring and fall migrations offer incredible birding opportunities.</p>
               </div>
             </div>
@@ -343,7 +343,7 @@ const VoyageursReactTemplate = () => {
               href="/voyageurs-itinerary"
               style={{
                 display: 'inline-block',
-                background: 'linear-gradient(135deg, #1e3a8a, #3b82f6)',
+                background: 'linear-gradient(135deg, #4f566b, #3c4461)',
                 color: 'white',
                 textDecoration: 'none',
                 padding: '1rem 2rem',

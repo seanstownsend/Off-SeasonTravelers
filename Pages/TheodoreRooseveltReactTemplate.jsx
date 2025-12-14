@@ -11,7 +11,7 @@ const TheodoreRooseveltReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #059669, #22c55e)',
+        background: 'linear-gradient(135deg, #a16207, #92400e)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const TheodoreRooseveltReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#059669',
+              color: '#a16207',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #22c55e',
+              borderBottom: '3px solid #d97706',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -56,42 +56,42 @@ const TheodoreRooseveltReactTemplate = () => {
             }}>
               {/* Highlight Cards */}
               <div style={{
-                background: 'linear-gradient(135deg, #f0fdf4, #dcfce7)',
+                background: 'linear-gradient(135deg, #fef3c7, #fde68a)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #bbf7d0'
+                border: '1px solid #f59e0b'
               }}>
-                <h3 style={{ color: '#15803d', marginBottom: '0.5rem', fontSize: '1.2rem' }}>🏔️ Badlands Solitude</h3>
+                <h3 style={{ color: '#a16207', marginBottom: '0.5rem', fontSize: '1.2rem' }}>🏔️ Badlands Solitude</h3>
                 <p>Experience the same rugged badlands solitude that shaped Theodore Roosevelt's character and conservation vision, without summer crowds.</p>
               </div>
               
               <div style={{
-                background: 'linear-gradient(135deg, #f0fdf4, #dcfce7)',
+                background: 'linear-gradient(135deg, #fef3c7, #fde68a)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #bbf7d0'
+                border: '1px solid #f59e0b'
               }}>
-                <h3 style={{ color: '#15803d', marginBottom: '0.5rem', fontSize: '1.2rem' }}>🐎 Wild Horse Herds</h3>
+                <h3 style={{ color: '#a16207', marginBottom: '0.5rem', fontSize: '1.2rem' }}>🐎 Wild Horse Herds</h3>
                 <p>Fall brings elk bugling and bison herds, while spring offers prairie dog activity, wild horse foaling, and exceptional bird migration.</p>
               </div>
               
               <div style={{
-                background: 'linear-gradient(135deg, #f0fdf4, #dcfce7)',
+                background: 'linear-gradient(135deg, #fef3c7, #fde68a)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #bbf7d0'
+                border: '1px solid #f59e0b'
               }}>
-                <h3 style={{ color: '#15803d', marginBottom: '0.5rem', fontSize: '1.2rem' }}>🌈 Seasonal Colors</h3>
+                <h3 style={{ color: '#a16207', marginBottom: '0.5rem', fontSize: '1.2rem' }}>🌈 Seasonal Colors</h3>
                 <p>Capture spectacular badlands autumn colors and spring wildflower blooms with dramatic Great Plains sunsets in pristine conditions.</p>
               </div>
               
               <div style={{
-                background: 'linear-gradient(135deg, #f0fdf4, #dcfce7)',
+                background: 'linear-gradient(135deg, #fef3c7, #fde68a)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #bbf7d0'
+                border: '1px solid #f59e0b'
               }}>
-                <h3 style={{ color: '#15803d', marginBottom: '0.5rem', fontSize: '1.2rem' }}>💰 Major Savings</h3>
+                <h3 style={{ color: '#a16207', marginBottom: '0.5rem', fontSize: '1.2rem' }}>💰 Major Savings</h3>
                 <p>Save up to 50% on regional accommodations compared to peak summer rates. North Dakota lodging is exceptionally affordable during shoulder seasons.</p>
               </div>
             </div>

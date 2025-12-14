@@ -36,10 +36,10 @@ const KobukValleyReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#a16207',
+              color: '#475569',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #d97706',
+              borderBottom: '3px solid #64748b',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights

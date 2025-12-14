@@ -11,7 +11,7 @@ const WindCaveReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #059669, #22c55e)',
+        background: 'linear-gradient(135deg, #6b7280, #4b5563)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const WindCaveReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#059669',
+              color: '#6b7280',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #22c55e',
+              borderBottom: '3px solid #9ca3af',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -56,42 +56,42 @@ const WindCaveReactTemplate = () => {
             }}>
               {/* Highlight Cards */}
               <div style={{
-                background: 'linear-gradient(135deg, #f0fdf4, #dcfce7)',
+                background: 'linear-gradient(135deg, #f9fafb, #f3f4f6)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #bbf7d0'
+                border: '1px solid #d1d5db'
               }}>
-                <h3 style={{ color: '#15803d', marginBottom: '0.5rem', fontSize: '1.2rem' }}>🌡️ Perfect Cave Conditions</h3>
+                <h3 style={{ color: '#6b7280', marginBottom: '0.5rem', fontSize: '1.2rem' }}>🌡️ Perfect Cave Conditions</h3>
                 <p>Explore one of the world's most intricate cave systems with consistent 53°F temperatures year-round. No summer heat or winter cold concerns underground!</p>
               </div>
               
               <div style={{
-                background: 'linear-gradient(135deg, #f0fdf4, #dcfce7)',
+                background: 'linear-gradient(135deg, #f9fafb, #f3f4f6)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #bbf7d0'
+                border: '1px solid #d1d5db'
               }}>
-                <h3 style={{ color: '#15803d', marginBottom: '0.5rem', fontSize: '1.2rem' }}>🦬 Wildlife Viewing Prime</h3>
+                <h3 style={{ color: '#6b7280', marginBottom: '0.5rem', fontSize: '1.2rem' }}>🦌 Wildlife Viewing Prime</h3>
                 <p>Experience bison calving season in spring and elk bugling in fall. Prairie dogs are most active during comfortable off-season temperatures.</p>
               </div>
               
               <div style={{
-                background: 'linear-gradient(135deg, #f0fdf4, #dcfce7)',
+                background: 'linear-gradient(135deg, #f9fafb, #f3f4f6)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #bbf7d0'
+                border: '1px solid #d1d5db'
               }}>
-                <h3 style={{ color: '#15803d', marginBottom: '0.5rem', fontSize: '1.2rem' }}>🌸 Prairie Seasons</h3>
+                <h3 style={{ color: '#6b7280', marginBottom: '0.5rem', fontSize: '1.2rem' }}>🌸 Prairie Seasons</h3>
                 <p>Capture stunning wildflower blooms in spring and dramatic autumn colors across 33,000 acres of mixed-grass prairie without tourist crowds.</p>
               </div>
               
               <div style={{
-                background: 'linear-gradient(135deg, #f0fdf4, #dcfce7)',
+                background: 'linear-gradient(135deg, #f9fafb, #f3f4f6)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #bbf7d0'
+                border: '1px solid #d1d5db'
               }}>
-                <h3 style={{ color: '#15803d', marginBottom: '0.5rem', fontSize: '1.2rem' }}>💰 Significant Savings</h3>
+                <h3 style={{ color: '#6b7280', marginBottom: '0.5rem', fontSize: '1.2rem' }}>💰 Significant Savings</h3>
                 <p>Save up to 40% on area accommodations compared to peak summer rates. Black Hills lodging is much more affordable during shoulder seasons.</p>
               </div>
             </div>

@@ -11,7 +11,7 @@ const GlacierBayReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #065f46, #10b981)',
+        background: 'linear-gradient(135deg, #4f6873, #5d7681)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const GlacierBayReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#065f46',
+              color: '#475569',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #10b981',
+              borderBottom: '3px solid #64748b',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -56,12 +56,12 @@ const GlacierBayReactTemplate = () => {
             }}>
               {/* Highlight 1 */}
               <div style={{
-                background: 'linear-gradient(135deg, #f0fdf4, #dcfce7)',
+                background: 'linear-gradient(135deg, #f8fafc, #f1f5f9)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #86efac'
+                border: '1px solid #cbd5e1'
               }}>
-                <h3 style={{ color: '#065f46', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#475569', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🏔️ Massive Glacier Calving
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -71,12 +71,12 @@ const GlacierBayReactTemplate = () => {
 
               {/* Highlight 2 */}
               <div style={{
-                background: 'linear-gradient(135deg, #f0fdf4, #dcfce7)',
+                background: 'linear-gradient(135deg, #f8fafc, #f1f5f9)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #86efac'
+                border: '1px solid #cbd5e1'
               }}>
-                <h3 style={{ color: '#065f46', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#475569', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🐋 Humpback Whale Migration
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -86,12 +86,12 @@ const GlacierBayReactTemplate = () => {
 
               {/* Highlight 3 */}
               <div style={{
-                background: 'linear-gradient(135deg, #f0fdf4, #dcfce7)',
+                background: 'linear-gradient(135deg, #f8fafc, #f1f5f9)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #86efac'
+                border: '1px solid #cbd5e1'
               }}>
-                <h3 style={{ color: '#065f46', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#475569', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🌿 Pristine Wilderness Access
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>

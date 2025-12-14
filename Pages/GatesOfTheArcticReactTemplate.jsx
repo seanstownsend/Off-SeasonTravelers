@@ -11,7 +11,7 @@ const GatesOfTheArcticReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #581c87, #7c3aed)',
+        background: 'linear-gradient(135deg, #475569, #64748b)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const GatesOfTheArcticReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#581c87',
+              color: '#475569',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #7c3aed',
+              borderBottom: '3px solid #64748b',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -118,10 +118,10 @@ const GatesOfTheArcticReactTemplate = () => {
           {/* Weather Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#581c87',
+              color: '#475569',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #7c3aed',
+              borderBottom: '3px solid #64748b',
               paddingBottom: '0.5rem'
             }}>
               Weather Guide
@@ -137,12 +137,12 @@ const GatesOfTheArcticReactTemplate = () => {
             }}>
               {/* Spring Weather */}
               <div style={{
-                background: '#fef3c7',
+                background: 'linear-gradient(135deg, #f8fafc, #f1f5f9)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #f59e0b'
+                border: '1px solid #cbd5e1'
               }}>
-                <h3 style={{ color: '#92400e', fontSize: '1.3rem', marginBottom: '1rem' }}>
+                <h3 style={{ color: '#475569', fontSize: '1.3rem', marginBottom: '1rem' }}>
                   🌸 Spring (April - May)
                 </h3>
                 <div style={{ marginBottom: '0.75rem' }}>
@@ -161,12 +161,12 @@ const GatesOfTheArcticReactTemplate = () => {
 
               {/* Fall Weather */}
               <div style={{
-                background: '#fef2f2',
+                background: 'linear-gradient(135deg, #f8fafc, #f1f5f9)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #ef4444'
+                border: '1px solid #cbd5e1'
               }}>
-                <h3 style={{ color: '#b91c1c', fontSize: '1.3rem', marginBottom: '1rem' }}>
+                <h3 style={{ color: '#475569', fontSize: '1.3rem', marginBottom: '1rem' }}>
                   🍂 Fall (September - October)
                 </h3>
                 <div style={{ marginBottom: '0.75rem' }}>
@@ -188,10 +188,10 @@ const GatesOfTheArcticReactTemplate = () => {
           {/* Essential Tips Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#581c87',
+              color: '#475569',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #7c3aed',
+              borderBottom: '3px solid #64748b',
               paddingBottom: '0.5rem'
             }}>
               Essential Tips
@@ -318,42 +318,70 @@ const GatesOfTheArcticReactTemplate = () => {
 
           {/* Call to Action Section */}
           <section style={{
-            background: 'linear-gradient(135deg, #faf5ff, #f3e8ff)',
+            background: 'linear-gradient(135deg, #f8fafc, #f1f5f9)',
             padding: '2rem',
             borderRadius: '0.75rem',
             textAlign: 'center',
-            border: '1px solid #c4b5fd'
+            border: '1px solid #cbd5e1'
           }}>
-            <h2 style={{ color: '#581c87', fontSize: '1.8rem', marginBottom: '1rem' }}>
+            <h2 style={{ color: '#475569', fontSize: '1.8rem', marginBottom: '1rem' }}>
               Ready to Plan Your Arctic Wilderness Adventure?
             </h2>
             <p style={{ color: '#475569', marginBottom: '1.5rem', fontSize: '1.1rem' }}>
               Ready to plan your ultimate Gates of the Arctic National Park off-season adventure? Our detailed expedition guide covers everything from access logistics to wilderness survival.
             </p>
-            <a 
-              href="/gates-of-the-arctic-itinerary"
-              style={{
-                background: 'linear-gradient(135deg, #581c87, #7c3aed)',
-                color: 'white',
-                padding: '0.75rem 2rem',
-                borderRadius: '0.5rem',
-                textDecoration: 'none',
-                fontWeight: '600',
-                display: 'inline-block',
-                boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
-                transition: 'all 0.3s ease'
-              }}
-              onMouseEnter={(e) => {
-                e.target.style.transform = 'translateY(-2px)';
-                e.target.style.boxShadow = '0 8px 15px -3px rgba(0, 0, 0, 0.1)';
-              }}
-              onMouseLeave={(e) => {
-                e.target.style.transform = 'translateY(0)';
-                e.target.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)';
-              }}
-            >
-              View Complete Arctic Expedition Guide →
-            </a>
+            <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+              <a 
+                href="/gates-of-the-arctic-itinerary"
+                style={{
+                  background: 'linear-gradient(135deg, #475569, #64748b)',
+                  color: 'white',
+                  padding: '0.75rem 2rem',
+                  borderRadius: '0.5rem',
+                  textDecoration: 'none',
+                  fontWeight: '600',
+                  display: 'inline-block',
+                  boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
+                  transition: 'all 0.3s ease'
+                }}
+                onMouseEnter={(e) => {
+                  e.target.style.transform = 'translateY(-2px)';
+                  e.target.style.boxShadow = '0 8px 15px -3px rgba(0, 0, 0, 0.1)';
+                }}
+                onMouseLeave={(e) => {
+                  e.target.style.transform = 'translateY(0)';
+                  e.target.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)';
+                }}
+              >
+                📅 View Complete Arctic Expedition Guide
+              </a>
+              <a 
+                href="https://www.nps.gov/gaar/index.htm"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  background: 'linear-gradient(135deg, #475569, #64748b)',
+                  color: 'white',
+                  padding: '0.75rem 2rem',
+                  borderRadius: '0.5rem',
+                  textDecoration: 'none',
+                  fontWeight: '600',
+                  display: 'inline-block',
+                  boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
+                  transition: 'all 0.3s ease'
+                }}
+                onMouseEnter={(e) => {
+                  e.target.style.transform = 'translateY(-2px)';
+                  e.target.style.boxShadow = '0 8px 15px -3px rgba(0, 0, 0, 0.1)';
+                }}
+                onMouseLeave={(e) => {
+                  e.target.style.transform = 'translateY(0)';
+                  e.target.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)';
+                }}
+              >
+                🏛️ Visit Official NPS Site
+              </a>
+            </div>
           </section>
         </main>
 

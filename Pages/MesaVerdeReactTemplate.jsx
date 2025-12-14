@@ -11,7 +11,7 @@ const MesaVerdeReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #059669, #0d9488)',
+        background: 'linear-gradient(135deg, #92400e, #b45309)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const MesaVerdeReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#059669',
+              color: '#92400e',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #0d9488',
+              borderBottom: '3px solid #b45309',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -55,32 +55,32 @@ const MesaVerdeReactTemplate = () => {
               marginBottom: '2rem'
             }}>
               <div style={{
-                background: '#ecfdf5',
+                background: 'linear-gradient(135deg, #fef7ed, #fed7aa)',
                 padding: '1.5rem',
                 borderRadius: '0.5rem',
-                border: '1px solid #059669'
+                border: '1px solid #f97316'
               }}>
-                <h3 style={{ color: '#0d9488', marginBottom: '1rem' }}>Intimate Cliff Tours</h3>
+                <h3 style={{ color: '#92400e', marginBottom: '1rem' }}>Intimate Cliff Tours</h3>
                 <p>Experience Cliff Palace and Balcony House with small groups and expert rangers, without the summer crowds of 2,000+ daily visitors.</p>
               </div>
               
               <div style={{
-                background: '#ecfdf5',
+                background: 'linear-gradient(135deg, #fef7ed, #fed7aa)',
                 padding: '1.5rem',
                 borderRadius: '0.5rem',
-                border: '1px solid #059669'
+                border: '1px solid #f97316'
               }}>
-                <h3 style={{ color: '#0d9488', marginBottom: '1rem' }}>70% Fewer Crowds</h3>
+                <h3 style={{ color: '#92400e', marginBottom: '1rem' }}>70% Fewer Crowds</h3>
                 <p>Experience the sacred silence of ancient sites with significantly fewer visitors. Have Cliff Palace and Balcony House almost to yourself.</p>
               </div>
               
               <div style={{
-                background: '#ecfdf5',
+                background: 'linear-gradient(135deg, #fef7ed, #fed7aa)',
                 padding: '1.5rem',
                 borderRadius: '0.5rem',
-                border: '1px solid #059669'
+                border: '1px solid #f97316'
               }}>
-                <h3 style={{ color: '#0d9488', marginBottom: '1rem' }}>Perfect Photography</h3>
+                <h3 style={{ color: '#92400e', marginBottom: '1rem' }}>Perfect Photography</h3>
                 <p>Dramatic lighting on sandstone cliffs and ruins. Fall colors contrast beautifully with ancient architecture and canyon landscapes.</p>
               </div>
             </div>

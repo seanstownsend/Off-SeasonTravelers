@@ -11,7 +11,7 @@ const GrandCanyonReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #c2410c, #ea580c)',
+        background: 'linear-gradient(135deg, #a6763c, #b8854a)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const GrandCanyonReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#c2410c',
+              color: '#a6763c',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #ea580c',
+              borderBottom: '3px solid #b8854a',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -56,12 +56,12 @@ const GrandCanyonReactTemplate = () => {
             }}>
               {/* Highlight 1 */}
               <div style={{
-                background: 'linear-gradient(135deg, #fff7ed, #ffedd5)',
+                background: 'linear-gradient(135deg, #fef8f0, #fdf4e8)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #fdba74'
+                border: '1px solid #d4b896'
               }}>
-                <h3 style={{ color: '#c2410c', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#a6763c', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🏜️ Perfect Weather Conditions
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -71,12 +71,12 @@ const GrandCanyonReactTemplate = () => {
 
               {/* Highlight 2 */}
               <div style={{
-                background: 'linear-gradient(135deg, #fff7ed, #ffedd5)',
+                background: 'linear-gradient(135deg, #fef8f0, #fdf4e8)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #fdba74'
+                border: '1px solid #d4b896'
               }}>
-                <h3 style={{ color: '#c2410c', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#a6763c', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   👥 Reduced Crowds
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -86,12 +86,12 @@ const GrandCanyonReactTemplate = () => {
 
               {/* Highlight 3 */}
               <div style={{
-                background: 'linear-gradient(135deg, #fff7ed, #ffedd5)',
+                background: 'linear-gradient(135deg, #fef8f0, #fdf4e8)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #fdba74'
+                border: '1px solid #d4b896'
               }}>
-                <h3 style={{ color: '#c2410c', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#a6763c', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🌅 Spectacular Sunrise/Sunset
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -118,10 +118,10 @@ const GrandCanyonReactTemplate = () => {
           {/* Weather Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#c2410c',
+              color: '#a6763c',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #ea580c',
+              borderBottom: '3px solid #b8854a',
               paddingBottom: '0.5rem'
             }}>
               Weather Guide
@@ -137,12 +137,12 @@ const GrandCanyonReactTemplate = () => {
             }}>
               {/* Spring Weather */}
               <div style={{
-                background: '#fef3c7',
+                background: '#fef8f0',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #f59e0b'
+                border: '1px solid #d4b896'
               }}>
-                <h3 style={{ color: '#92400e', fontSize: '1.3rem', marginBottom: '1rem' }}>
+                <h3 style={{ color: '#8b5e34', fontSize: '1.3rem', marginBottom: '1rem' }}>
                   🌸 Spring (April - May)
                 </h3>
                 <div style={{ marginBottom: '0.75rem' }}>
@@ -150,12 +150,12 @@ const GrandCanyonReactTemplate = () => {
                   <span style={{ color: '#451a03' }}> 50-70°F (10-21°C)</span>
                 </div>
                 <div style={{ marginBottom: '0.75rem' }}>
-                  <strong style={{ color: '#92400e' }}>Conditions:</strong>
-                  <span style={{ color: '#451a03' }}> Mild days, cool nights, wildflower blooms</span>
+                  <strong style={{ color: '#8b5e34' }}>Conditions:</strong>
+                  <span style={{ color: '#704935' }}> Mild days, cool nights, wildflower blooms</span>
                 </div>
                 <div>
-                  <strong style={{ color: '#92400e' }}>Best For:</strong>
-                  <span style={{ color: '#451a03' }}> Rim hiking, photography, camping</span>
+                  <strong style={{ color: '#8b5e34' }}>Best For:</strong>
+                  <span style={{ color: '#704935' }}> Rim hiking, photography, camping</span>
                 </div>
               </div>
 
@@ -188,10 +188,10 @@ const GrandCanyonReactTemplate = () => {
           {/* Essential Tips Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#c2410c',
+              color: '#a6763c',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #ea580c',
+              borderBottom: '3px solid #b8854a',
               paddingBottom: '0.5rem'
             }}>
               Essential Tips
@@ -243,10 +243,10 @@ const GrandCanyonReactTemplate = () => {
           {/* Planning Checklist Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#c2410c',
+              color: '#a6763c',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #ea580c',
+              borderBottom: '3px solid #b8854a',
               paddingBottom: '0.5rem'
             }}>
               Planning Checklist
@@ -262,15 +262,15 @@ const GrandCanyonReactTemplate = () => {
             }}>
               {/* Permits & Reservations */}
               <div style={{
-                background: '#ecfdf5',
+                background: '#fef8f0',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #10b981'
+                border: '1px solid #d4b896'
               }}>
-                <h3 style={{ color: '#047857', fontSize: '1.2rem', marginBottom: '1rem' }}>
+                <h3 style={{ color: '#8b5e34', fontSize: '1.2rem', marginBottom: '1rem' }}>
                   📋 Permits & Reservations
                 </h3>
-                <ul style={{ color: '#065f46', lineHeight: '1.8', paddingLeft: '1.2rem' }}>
+                <ul style={{ color: '#704935', lineHeight: '1.8', paddingLeft: '1.2rem' }}>
                   <li>Park entrance pass or America the Beautiful Annual Pass</li>
                   <li>Camping reservations at Mather or Desert View Campgrounds</li>
                   <li>Lodging reservations at South Rim (book early)</li>

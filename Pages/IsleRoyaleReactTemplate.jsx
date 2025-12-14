@@ -11,7 +11,7 @@ const IsleRoyaleReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #065f46, #059669)',
+        background: 'linear-gradient(135deg, #5a6267, #687075)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const IsleRoyaleReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#065f46',
+              color: '#a16207',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #059669',
+              borderBottom: '3px solid #d97706',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights

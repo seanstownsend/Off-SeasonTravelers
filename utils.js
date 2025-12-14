@@ -4,6 +4,7 @@ export const PAGE_ROUTES = {
   Home: '/',
   ByMonth: '/by-month',
   ByLocation: '/by-location',
+  PlanningTools: '/planning-tools',
   MapExplore: '/map-explore',
   NationalParks: '/national-parks'
 }

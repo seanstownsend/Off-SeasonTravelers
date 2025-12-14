@@ -11,7 +11,7 @@ const BiscayneReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #0d9488, #14b8a6)',
+        background: 'linear-gradient(135deg, #6e7f52, #7c8d60)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',

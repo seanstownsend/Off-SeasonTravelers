@@ -11,7 +11,7 @@ const YosemiteReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #1e40af, #3b82f6)',
+        background: 'linear-gradient(135deg, #d97706, #f59e0b)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const YosemiteReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#1e40af',
+              color: '#d97706',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #3b82f6',
+              borderBottom: '3px solid #f59e0b',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -56,12 +56,12 @@ const YosemiteReactTemplate = () => {
             }}>
               {/* Highlight 1 */}
               <div style={{
-                background: 'linear-gradient(135deg, #eff6ff, #dbeafe)',
+                background: 'linear-gradient(135deg, #fef3c7, #fde68a)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #93c5fd'
+                border: '1px solid #f59e0b'
               }}>
-                <h3 style={{ color: '#1e40af', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#a16207', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   💧 Peak Waterfall Season
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -71,12 +71,12 @@ const YosemiteReactTemplate = () => {
 
               {/* Highlight 2 */}
               <div style={{
-                background: 'linear-gradient(135deg, #eff6ff, #dbeafe)',
+                background: 'linear-gradient(135deg, #fef3c7, #fde68a)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #93c5fd'
+                border: '1px solid #f59e0b'
               }}>
-                <h3 style={{ color: '#1e40af', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#a16207', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🏔️ Clear Mountain Views
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -86,12 +86,12 @@ const YosemiteReactTemplate = () => {
 
               {/* Highlight 3 */}
               <div style={{
-                background: 'linear-gradient(135deg, #eff6ff, #dbeafe)',
+                background: 'linear-gradient(135deg, #fef3c7, #fde68a)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #93c5fd'
+                border: '1px solid #f59e0b'
               }}>
-                <h3 style={{ color: '#1e40af', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#a16207', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🌲 Peaceful Valley Floor
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>

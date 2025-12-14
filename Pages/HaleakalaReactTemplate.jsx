@@ -11,7 +11,7 @@ const HaleakalaReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #7c3aed, #a855f7)',
+        background: 'linear-gradient(135deg, #92400e, #b45309)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const HaleakalaReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#7c3aed',
+              color: '#92400e',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #a855f7',
+              borderBottom: '3px solid #b45309',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights

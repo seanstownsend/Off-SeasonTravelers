@@ -11,7 +11,7 @@ const WrangellStEliasReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #7c3aed, #a855f7)',
+        background: 'linear-gradient(135deg, #475569, #64748b)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const WrangellStEliasReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#7c3aed',
+              color: '#475569',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #a855f7',
+              borderBottom: '3px solid #64748b',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -60,7 +60,7 @@ const WrangellStEliasReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#6b21a8', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🏔️ America's Largest Park</h3>
+                <h3 style={{ color: '#475569', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🏔️ America's Largest Park</h3>
                 <p>Explore 13.2 million acres of pristine wilderness - larger than Yellowstone, Yosemite, and Switzerland combined. Experience true solitude in untouched landscapes.</p>
               </div>
               <div style={{
@@ -69,7 +69,7 @@ const WrangellStEliasReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#6b21a8', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>⛰️ World-Class Mountaineering</h3>
+                <h3 style={{ color: '#475569', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>⛰️ World-Class Mountaineering</h3>
                 <p>Home to 9 of the 16 highest peaks in the US, including Mount St. Elias at 18,008 feet. Off-season offers serious mountaineering opportunities.</p>
               </div>
               <div style={{
@@ -78,7 +78,7 @@ const WrangellStEliasReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#6b21a8', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🧊 Massive Glacier Systems</h3>
+                <h3 style={{ color: '#475569', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🧊 Massive Glacier Systems</h3>
                 <p>Explore glacier systems including the Malaspina Glacier, larger than Rhode Island. Winter offers unique glacier travel and ice climbing opportunities.</p>
               </div>
               <div style={{
@@ -87,7 +87,7 @@ const WrangellStEliasReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#6b21a8', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🏛️ Historic Mining Heritage</h3>
+                <h3 style={{ color: '#475569', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🏦 Historic Mining Heritage</h3>
                 <p>Discover the preserved Kennecott Mill and other remnants of Alaska's copper mining boom. Winter access requires planning but offers authentic experiences.</p>
               </div>
             </div>
@@ -109,10 +109,10 @@ const WrangellStEliasReactTemplate = () => {
           {/* Off-Season Trade-Offs Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#7c3aed',
+              color: '#475569',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #a855f7',
+              borderBottom: '3px solid #64748b',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Trade-Offs
@@ -128,12 +128,12 @@ const WrangellStEliasReactTemplate = () => {
               margin: '1.5rem 0'
             }}>
               <div style={{
-                background: '#f3e8ff',
+                background: 'linear-gradient(135deg, #f8fafc, #f1f5f9)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #a855f7'
+                border: '1px solid #cbd5e1'
               }}>
-                <h3 style={{ color: '#6b21a8', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>✅ Advantages</h3>
+                <h3 style={{ color: '#475569', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>✅ Advantages</h3>
                 <ul style={{ paddingLeft: '1.5rem' }}>
                   <li>Ultimate wilderness solitude and pristine conditions</li>
                   <li>World-class mountaineering and technical climbing</li>
@@ -144,10 +144,10 @@ const WrangellStEliasReactTemplate = () => {
                 </ul>
               </div>
               <div style={{
-                background: '#fef3c7',
+                background: 'linear-gradient(135deg, #fef7ed, #fed7aa)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #f59e0b'
+                border: '1px solid #f97316'
               }}>
                 <h3 style={{ color: '#92400e', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>⚠️ Extreme Challenges</h3>
                 <ul style={{ paddingLeft: '1.5rem' }}>
@@ -165,10 +165,10 @@ const WrangellStEliasReactTemplate = () => {
           {/* Weather Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#7c3aed',
+              color: '#475569',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #a855f7',
+              borderBottom: '3px solid #64748b',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Weather
@@ -187,7 +187,7 @@ const WrangellStEliasReactTemplate = () => {
                 boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)'
               }}>
                 <thead>
-                  <tr style={{ backgroundColor: '#7c3aed', color: 'white' }}>
+                  <tr style={{ backgroundColor: '#475569', color: 'white' }}>
                     <th style={{ padding: '1rem', textAlign: 'left' }}>Month</th>
                     <th style={{ padding: '1rem', textAlign: 'left' }}>Avg High (°F)</th>
                     <th style={{ padding: '1rem', textAlign: 'left' }}>Avg Low (°F)</th>
@@ -245,10 +245,10 @@ const WrangellStEliasReactTemplate = () => {
           {/* Off-Season Tips Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#7c3aed',
+              color: '#475569',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #a855f7',
+              borderBottom: '3px solid #64748b',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Tips
@@ -284,10 +284,10 @@ const WrangellStEliasReactTemplate = () => {
           {/* Before You Go Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#7c3aed',
+              color: '#475569',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #a855f7',
+              borderBottom: '3px solid #64748b',
               paddingBottom: '0.5rem'
             }}>
               Before You Go
@@ -296,7 +296,7 @@ const WrangellStEliasReactTemplate = () => {
               Essential pre-expedition checklist for your Wrangell-St. Elias National Park off-season adventure:
             </p>
             
-            <h3 style={{ color: '#6b21a8', fontSize: '1.3rem', margin: '1.5rem 0 1rem 0' }}>Permits & Planning</h3>
+            <h3 style={{ color: '#475569', fontSize: '1.3rem', margin: '1.5rem 0 1rem 0' }}>Permits & Planning</h3>
             <ul style={{ paddingLeft: '1.5rem', marginBottom: '1.5rem' }}>
               <li>No entrance fees but backcountry permits recommended</li>
               <li>Mountaineering registration with park service</li>
@@ -304,7 +304,7 @@ const WrangellStEliasReactTemplate = () => {
               <li>Weather monitoring and route assessment</li>
             </ul>
 
-            <h3 style={{ color: '#6b21a8', fontSize: '1.3rem', margin: '1.5rem 0 1rem 0' }}>Essential Equipment</h3>
+            <h3 style={{ color: '#475569', fontSize: '1.3rem', margin: '1.5rem 0 1rem 0' }}>Essential Equipment</h3>
             <ul style={{ paddingLeft: '1.5rem', marginBottom: '1.5rem' }}>
               <li>Professional mountaineering and glacier travel gear</li>
               <li>Expedition-grade cold weather clothing systems</li>
@@ -313,7 +313,7 @@ const WrangellStEliasReactTemplate = () => {
               <li>High-altitude expedition supplies</li>
             </ul>
 
-            <h3 style={{ color: '#6b21a8', fontSize: '1.3rem', margin: '1.5rem 0 1rem 0' }}>Critical Safety Requirements</h3>
+            <h3 style={{ color: '#475569', fontSize: '1.3rem', margin: '1.5rem 0 1rem 0' }}>Critical Safety Requirements</h3>
             <ul style={{ paddingLeft: '1.5rem', marginBottom: '1.5rem' }}>
               <li>Expert-level mountaineering and technical climbing skills</li>
               <li>Extensive glacier travel and crevasse rescue training</li>
@@ -326,10 +326,10 @@ const WrangellStEliasReactTemplate = () => {
           {/* Itinerary Link Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#7c3aed',
+              color: '#475569',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #a855f7',
+              borderBottom: '3px solid #64748b',
               paddingBottom: '0.5rem'
             }}>
               Multi-Day Expedition Itinerary
@@ -338,33 +338,55 @@ const WrangellStEliasReactTemplate = () => {
               Ready to plan your ultimate Wrangell-St. Elias National Park off-season expedition? Our detailed itinerary covers everything from technical route planning to emergency protocols.
             </p>
             
-            <a 
-              href="/wrangell-st-elias-itinerary"
-              style={{
-                display: 'inline-block',
-                background: 'linear-gradient(135deg, #7c3aed, #a855f7)',
-                color: 'white',
-                textDecoration: 'none',
-                padding: '1rem 2rem',
-                borderRadius: '0.75rem',
-                fontWeight: '600',
-                transition: 'transform 0.3s ease',
-                margin: '1rem 0'
-              }}
-              onMouseOver={(e) => e.target.style.transform = 'translateY(-2px)'}
-              onMouseOut={(e) => e.target.style.transform = 'translateY(0)'}
-            >
-              📅 Get Your Complete Expedition Itinerary
-            </a>
+            <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+              <a 
+                href="/wrangell-st-elias-itinerary"
+                style={{
+                  display: 'inline-block',
+                  background: 'linear-gradient(135deg, #475569, #64748b)',
+                  color: 'white',
+                  textDecoration: 'none',
+                  padding: '1rem 2rem',
+                  borderRadius: '0.75rem',
+                  fontWeight: '600',
+                  transition: 'transform 0.3s ease',
+                  margin: '1rem 0'
+                }}
+                onMouseOver={(e) => e.target.style.transform = 'translateY(-2px)'}
+                onMouseOut={(e) => e.target.style.transform = 'translateY(0)'}
+              >
+                📅 Get Your Complete Expedition Itinerary
+              </a>
+              <a 
+                href="https://www.nps.gov/wrst/index.htm"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: 'inline-block',
+                  background: 'linear-gradient(135deg, #475569, #64748b)',
+                  color: 'white',
+                  textDecoration: 'none',
+                  padding: '1rem 2rem',
+                  borderRadius: '0.75rem',
+                  fontWeight: '600',
+                  transition: 'transform 0.3s ease',
+                  margin: '1rem 0'
+                }}
+                onMouseOver={(e) => e.target.style.transform = 'translateY(-2px)'}
+                onMouseOut={(e) => e.target.style.transform = 'translateY(0)'}
+              >
+                🏛️ Visit Official NPS Site
+              </a>
+            </div>
           </section>
 
           {/* User Feedback & Photos Section - React Component */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#7c3aed',
+              color: '#475569',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #a855f7',
+              borderBottom: '3px solid #64748b',
               paddingBottom: '0.5rem'
             }}>
               Visitor Feedback & Reviews

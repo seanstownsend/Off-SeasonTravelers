@@ -5,9 +5,9 @@ const ChannelIslandsReactTemplate = () => {
   return (
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif', lineHeight: '1.6', color: '#1f2937' }}>
       {/* Header Section */}
-      <header style={{ 
-        background: 'linear-gradient(135deg, #0ea5e9, #0284c7)', 
-        color: 'white', 
+      <header style={{
+        background: 'linear-gradient(135deg, #7a8f6a, #88a078)', 
+        color: 'white',
         padding: '4rem 0 2rem 0', 
         textAlign: 'center',
         position: 'relative',

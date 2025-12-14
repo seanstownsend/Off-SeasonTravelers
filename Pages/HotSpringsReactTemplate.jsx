@@ -11,7 +11,7 @@ const HotSpringsReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #059669, #22c55e)',
+        background: 'linear-gradient(135deg, #6b7280, #4b5563)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const HotSpringsReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#059669',
+              color: '#6b7280',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #22c55e',
+              borderBottom: '3px solid #9ca3af',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -60,7 +60,7 @@ const HotSpringsReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#15803d', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>♨️ Peaceful Hot Springs</h3>
+                <h3 style={{ color: '#6b7280', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>♨️ Peaceful Hot Springs</h3>
                 <p>Enjoy the therapeutic thermal waters without summer crowds. The historic bathhouses and springs are most comfortable during cooler months.</p>
               </div>
               <div style={{
@@ -69,7 +69,7 @@ const HotSpringsReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#15803d', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>💰 Significant Savings</h3>
+                <h3 style={{ color: '#6b7280', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>💰 Significant Savings</h3>
                 <p>Save up to 50% on accommodations and spa services. Downtown Hot Springs lodging is much more affordable during shoulder seasons.</p>
               </div>
               <div style={{
@@ -78,7 +78,7 @@ const HotSpringsReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#15803d', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>📸 Perfect Weather</h3>
+                <h3 style={{ color: '#6b7280', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>📸 Perfect Weather</h3>
                 <p>Ideal temperatures for hiking the mountain trails and exploring the historic downtown area without oppressive summer heat.</p>
               </div>
               <div style={{
@@ -87,7 +87,7 @@ const HotSpringsReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#15803d', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🏛️ Historic Downtown</h3>
+                <h3 style={{ color: '#6b7280', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🏦 Historic Downtown</h3>
                 <p>Explore America's oldest national park and historic downtown Hot Springs without the summer tourist rush.</p>
               </div>
             </div>

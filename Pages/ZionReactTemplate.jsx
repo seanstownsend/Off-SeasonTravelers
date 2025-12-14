@@ -11,7 +11,7 @@ const ZionReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #dc2626, #ef4444)',
+        background: 'linear-gradient(135deg, #ea580c, #fb923c)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const ZionReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#dc2626',
+              color: '#ea580c',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #ef4444',
+              borderBottom: '3px solid #fb923c',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -56,12 +56,12 @@ const ZionReactTemplate = () => {
             }}>
               {/* Highlight 1 */}
               <div style={{
-                background: 'linear-gradient(135deg, #fef2f2, #fee2e2)',
+                background: 'linear-gradient(135deg, #ffedd5, #fed7aa)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #fca5a5'
+                border: '1px solid #f97316'
               }}>
-                <h3 style={{ color: '#dc2626', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#ea580c', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🏜️ Perfect Hiking Weather
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -71,12 +71,12 @@ const ZionReactTemplate = () => {
 
               {/* Highlight 2 */}
               <div style={{
-                background: 'linear-gradient(135deg, #fef2f2, #fee2e2)',
+                background: 'linear-gradient(135deg, #ffedd5, #fed7aa)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #fca5a5'
+                border: '1px solid #f97316'
               }}>
-                <h3 style={{ color: '#dc2626', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#ea580c', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🌊 The Narrows Access
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -86,12 +86,12 @@ const ZionReactTemplate = () => {
 
               {/* Highlight 3 */}
               <div style={{
-                background: 'linear-gradient(135deg, #fef2f2, #fee2e2)',
+                background: 'linear-gradient(135deg, #f8fafc, #f1f5f9)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #fca5a5'
+                border: '1px solid #cbd5e1'
               }}>
-                <h3 style={{ color: '#dc2626', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#475569', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🧗 Angels Landing Challenge
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>

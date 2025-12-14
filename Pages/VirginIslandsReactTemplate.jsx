@@ -36,10 +36,10 @@ const VirginIslandsReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#0284c7',
+              color: '#d97706',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #0891b2',
+              borderBottom: '3px solid #f59e0b',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -55,39 +55,39 @@ const VirginIslandsReactTemplate = () => {
               margin: '1.5rem 0'
             }}>
               <div style={{
-                background: '#f9fafb',
+                background: 'linear-gradient(135deg, #fef3c7, #fde68a)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #e5e7eb'
+                border: '1px solid #f59e0b'
               }}>
-                <h3 style={{ color: '#0369a1', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🏖️ Perfect Beach Weather</h3>
+                <h3 style={{ color: '#d97706', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🏖️ Perfect Beach Weather</h3>
                 <p>Experience warm Caribbean waters and pristine beaches without the winter cruise ship crowds that can number over 5,000 visitors per day.</p>
               </div>
               <div style={{
-                background: '#f9fafb',
+                background: 'linear-gradient(135deg, #fef3c7, #fde68a)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #e5e7eb'
+                border: '1px solid #f59e0b'
               }}>
-                <h3 style={{ color: '#0369a1', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>💰 Significant Savings</h3>
+                <h3 style={{ color: '#d97706', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>💰 Significant Savings</h3>
                 <p>Save up to 50% on accommodations and discover local deals unavailable during peak winter season.</p>
               </div>
               <div style={{
-                background: '#f9fafb',
+                background: 'linear-gradient(135deg, #fef3c7, #fde68a)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #e5e7eb'
+                border: '1px solid #f59e0b'
               }}>
-                <h3 style={{ color: '#0369a1', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🤿 Exceptional Snorkeling</h3>
+                <h3 style={{ color: '#d97706', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🤿 Exceptional Snorkeling</h3>
                 <p>Capture underwater photography and explore coral reefs with exceptional visibility - often the clearest waters of the year.</p>
               </div>
               <div style={{
-                background: '#f9fafb',
+                background: 'linear-gradient(135deg, #fef3c7, #fde68a)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #e5e7eb'
+                border: '1px solid #f59e0b'
               }}>
-                <h3 style={{ color: '#0369a1', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🐢 Wildlife Activity</h3>
+                <h3 style={{ color: '#d97706', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🐢 Wildlife Activity</h3>
                 <p>Sea turtle nesting season and lush tropical vegetation make summer the best time for nature lovers and wildlife viewing.</p>
               </div>
             </div>

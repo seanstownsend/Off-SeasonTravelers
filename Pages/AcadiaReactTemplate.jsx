@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import FeedbackForm from '../Components/ui/FeedbackForm.jsx';
 
 const AcadiaReactTemplate = () => {
@@ -11,7 +12,7 @@ const AcadiaReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #1e40af, #60a5fa)',
+        background: 'linear-gradient(90deg, #2f3e46, #354f52)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +37,10 @@ const AcadiaReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#1e40af',
+              color: '#2f3e46',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #60a5fa',
+              borderBottom: '3px solid #a68a64',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -56,12 +57,12 @@ const AcadiaReactTemplate = () => {
             }}>
               {/* Highlight 1 */}
               <div style={{
-                background: 'linear-gradient(135deg, #eff6ff, #dbeafe)',
+                background: 'linear-gradient(135deg, rgba(166, 138, 100, 0.1), rgba(185, 155, 116, 0.15))',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #93c5fd'
+                border: '1px solid rgba(166, 138, 100, 0.3)'
               }}>
-                <h3 style={{ color: '#1e40af', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#2f3e46', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🌊 Pristine Coastal Views
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -71,12 +72,12 @@ const AcadiaReactTemplate = () => {
 
               {/* Highlight 2 */}
               <div style={{
-                background: 'linear-gradient(135deg, #eff6ff, #dbeafe)',
+                background: 'linear-gradient(135deg, rgba(166, 138, 100, 0.1), rgba(185, 155, 116, 0.15))',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #93c5fd'
+                border: '1px solid rgba(166, 138, 100, 0.3)'
               }}>
-                <h3 style={{ color: '#1e40af', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#2f3e46', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🍂 Fall Foliage Splendor
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -86,12 +87,12 @@ const AcadiaReactTemplate = () => {
 
               {/* Highlight 3 */}
               <div style={{
-                background: 'linear-gradient(135deg, #eff6ff, #dbeafe)',
+                background: 'linear-gradient(135deg, rgba(166, 138, 100, 0.1), rgba(185, 155, 116, 0.15))',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #93c5fd'
+                border: '1px solid rgba(166, 138, 100, 0.3)'
               }}>
-                <h3 style={{ color: '#1e40af', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#2f3e46', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🦞 Local Maine Culture
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -118,10 +119,10 @@ const AcadiaReactTemplate = () => {
           {/* Weather Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#1e40af',
+              color: '#2f3e46',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #60a5fa',
+              borderBottom: '3px solid #a68a64',
               paddingBottom: '0.5rem'
             }}>
               Weather Guide
@@ -137,49 +138,49 @@ const AcadiaReactTemplate = () => {
             }}>
               {/* Spring Weather */}
               <div style={{
-                background: '#fef3c7',
+                background: 'rgba(166, 138, 100, 0.1)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #f59e0b'
+                border: '1px solid rgba(166, 138, 100, 0.3)'
               }}>
-                <h3 style={{ color: '#92400e', fontSize: '1.3rem', marginBottom: '1rem' }}>
+                <h3 style={{ color: '#2f3e46', fontSize: '1.3rem', marginBottom: '1rem' }}>
                   🌸 Spring (April - May)
                 </h3>
                 <div style={{ marginBottom: '0.75rem' }}>
-                  <strong style={{ color: '#92400e' }}>Temperature:</strong>
-                  <span style={{ color: '#451a03' }}> 45-65°F (7-18°C)</span>
+                  <strong style={{ color: '#2f3e46' }}>Temperature:</strong>
+                  <span style={{ color: '#475569' }}> 45-65°F (7-18°C)</span>
                 </div>
                 <div style={{ marginBottom: '0.75rem' }}>
-                  <strong style={{ color: '#92400e' }}>Conditions:</strong>
-                  <span style={{ color: '#451a03' }}> Cool and crisp, occasional rain, wildflower blooms</span>
+                  <strong style={{ color: '#2f3e46' }}>Conditions:</strong>
+                  <span style={{ color: '#475569' }}> Cool and crisp, occasional rain, wildflower blooms</span>
                 </div>
                 <div>
-                  <strong style={{ color: '#92400e' }}>Best For:</strong>
-                  <span style={{ color: '#451a03' }}> Coastal hikes, tide pooling, wildflower photography</span>
+                  <strong style={{ color: '#2f3e46' }}>Best For:</strong>
+                  <span style={{ color: '#475569' }}> Coastal hikes, tide pooling, wildflower photography</span>
                 </div>
               </div>
 
               {/* Fall Weather */}
               <div style={{
-                background: '#fef2f2',
+                background: 'rgba(47, 62, 70, 0.1)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #ef4444'
+                border: '1px solid rgba(47, 62, 70, 0.3)'
               }}>
-                <h3 style={{ color: '#b91c1c', fontSize: '1.3rem', marginBottom: '1rem' }}>
+                <h3 style={{ color: '#2f3e46', fontSize: '1.3rem', marginBottom: '1rem' }}>
                   🍂 Fall (September - October)
                 </h3>
                 <div style={{ marginBottom: '0.75rem' }}>
-                  <strong style={{ color: '#b91c1c' }}>Temperature:</strong>
-                  <span style={{ color: '#7f1d1d' }}> 40-60°F (4-15°C)</span>
+                  <strong style={{ color: '#2f3e46' }}>Temperature:</strong>
+                  <span style={{ color: '#475569' }}> 40-60°F (4-15°C)</span>
                 </div>
                 <div style={{ marginBottom: '0.75rem' }}>
-                  <strong style={{ color: '#b91c1c' }}>Conditions:</strong>
-                  <span style={{ color: '#7f1d1d' }}> Crisp air, peak foliage, occasional nor'easters</span>
+                  <strong style={{ color: '#2f3e46' }}>Conditions:</strong>
+                  <span style={{ color: '#475569' }}> Crisp air, peak foliage, occasional nor'easters</span>
                 </div>
                 <div>
-                  <strong style={{ color: '#b91c1c' }}>Best For:</strong>
-                  <span style={{ color: '#7f1d1d' }}> Fall foliage, storm watching, photography</span>
+                  <strong style={{ color: '#2f3e46' }}>Best For:</strong>
+                  <span style={{ color: '#475569' }}> Fall foliage, storm watching, photography</span>
                 </div>
               </div>
             </div>
@@ -188,10 +189,10 @@ const AcadiaReactTemplate = () => {
           {/* Essential Tips Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#1e40af',
+              color: '#2f3e46',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #60a5fa',
+              borderBottom: '3px solid #a68a64',
               paddingBottom: '0.5rem'
             }}>
               Essential Tips
@@ -227,9 +228,9 @@ const AcadiaReactTemplate = () => {
                   background: '#f1f5f9',
                   padding: '1.5rem',
                   borderRadius: '0.75rem',
-                  borderLeft: '4px solid #60a5fa'
+                  borderLeft: '4px solid #a68a64'
                 }}>
-                  <h3 style={{ color: '#1e40af', fontSize: '1.1rem', marginBottom: '0.75rem' }}>
+                  <h3 style={{ color: '#2f3e46', fontSize: '1.1rem', marginBottom: '0.75rem' }}>
                     {tip.title}
                   </h3>
                   <p style={{ color: '#475569', lineHeight: '1.6', margin: 0 }}>
@@ -243,10 +244,10 @@ const AcadiaReactTemplate = () => {
           {/* Planning Checklist Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#1e40af',
+              color: '#2f3e46',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #60a5fa',
+              borderBottom: '3px solid #a68a64',
               paddingBottom: '0.5rem'
             }}>
               Planning Checklist
@@ -262,15 +263,15 @@ const AcadiaReactTemplate = () => {
             }}>
               {/* Passes & Reservations */}
               <div style={{
-                background: '#ecfdf5',
+                background: 'rgba(166, 138, 100, 0.1)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #10b981'
+                border: '1px solid rgba(166, 138, 100, 0.3)'
               }}>
-                <h3 style={{ color: '#047857', fontSize: '1.2rem', marginBottom: '1rem' }}>
+                <h3 style={{ color: '#2f3e46', fontSize: '1.2rem', marginBottom: '1rem' }}>
                   📋 Passes & Reservations
                 </h3>
-                <ul style={{ color: '#065f46', lineHeight: '1.8', paddingLeft: '1.2rem' }}>
+                <ul style={{ color: '#475569', lineHeight: '1.8', paddingLeft: '1.2rem' }}>
                   <li>Acadia National Park entrance pass ($30/vehicle)</li>
                   <li>Campground reservations at Blackwoods or Seawall</li>
                   <li>Lodging reservations in Bar Harbor or nearby areas</li>
@@ -280,15 +281,15 @@ const AcadiaReactTemplate = () => {
 
               {/* Gear & Equipment */}
               <div style={{
-                background: '#fef7ff',
+                background: 'rgba(47, 62, 70, 0.1)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #a855f7'
+                border: '1px solid rgba(47, 62, 70, 0.3)'
               }}>
-                <h3 style={{ color: '#7c2d12', fontSize: '1.2rem', marginBottom: '1rem' }}>
+                <h3 style={{ color: '#2f3e46', fontSize: '1.2rem', marginBottom: '1rem' }}>
                   🎒 Gear & Equipment
                 </h3>
-                <ul style={{ color: '#451a03', lineHeight: '1.8', paddingLeft: '1.2rem' }}>
+                <ul style={{ color: '#475569', lineHeight: '1.8', paddingLeft: '1.2rem' }}>
                   <li>Waterproof hiking boots and rain gear</li>
                   <li>Warm layers for coastal winds and elevation</li>
                   <li>Camera with wide-angle lens for coastal vistas</li>
@@ -298,15 +299,15 @@ const AcadiaReactTemplate = () => {
 
               {/* Safety & Wildlife */}
               <div style={{
-                background: '#fef2f2',
+                background: 'rgba(166, 138, 100, 0.15)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #ef4444'
+                border: '1px solid rgba(166, 138, 100, 0.4)'
               }}>
-                <h3 style={{ color: '#b91c1c', fontSize: '1.2rem', marginBottom: '1rem' }}>
+                <h3 style={{ color: '#2f3e46', fontSize: '1.2rem', marginBottom: '1rem' }}>
                   ⚠️ Safety & Wildlife
                 </h3>
-                <ul style={{ color: '#7f1d1d', lineHeight: '1.8', paddingLeft: '1.2rem' }}>
+                <ul style={{ color: '#475569', lineHeight: '1.8', paddingLeft: '1.2rem' }}>
                   <li>Coastal weather changes rapidly - check marine forecasts</li>
                   <li>Rocky coastline can be slippery when wet</li>
                   <li>Be aware of tide schedules near water</li>
@@ -318,42 +319,76 @@ const AcadiaReactTemplate = () => {
 
           {/* Call to Action Section */}
           <section style={{
-            background: 'linear-gradient(135deg, #eff6ff, #dbeafe)',
+            background: 'linear-gradient(135deg, rgba(166, 138, 100, 0.1), rgba(185, 155, 116, 0.15))',
             padding: '2rem',
             borderRadius: '0.75rem',
             textAlign: 'center',
-            border: '1px solid #93c5fd'
+            border: '1px solid rgba(166, 138, 100, 0.3)'
           }}>
-            <h2 style={{ color: '#1e40af', fontSize: '1.8rem', marginBottom: '1rem' }}>
+            <h2 style={{ color: '#2f3e46', fontSize: '1.8rem', marginBottom: '1rem' }}>
               Ready to Plan Your Acadia Adventure?
             </h2>
             <p style={{ color: '#475569', marginBottom: '1.5rem', fontSize: '1.1rem' }}>
               Ready to plan your ultimate Acadia National Park off-season adventure? Our detailed itinerary covers everything from coastal hikes to fall foliage viewing.
             </p>
-            <a 
-              href="/acadia-itinerary"
-              style={{
-                background: 'linear-gradient(135deg, #1e40af, #60a5fa)',
-                color: 'white',
-                padding: '0.75rem 2rem',
-                borderRadius: '0.5rem',
-                textDecoration: 'none',
-                fontWeight: '600',
-                display: 'inline-block',
-                boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
-                transition: 'all 0.3s ease'
-              }}
-              onMouseEnter={(e) => {
-                e.target.style.transform = 'translateY(-2px)';
-                e.target.style.boxShadow = '0 8px 15px -3px rgba(0, 0, 0, 0.1)';
-              }}
-              onMouseLeave={(e) => {
-                e.target.style.transform = 'translateY(0)';
-                e.target.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)';
-              }}
-            >
-              View Complete Acadia Itinerary →
-            </a>
+            <div style={{
+              display: 'flex',
+              gap: '1rem',
+              justifyContent: 'center',
+              alignItems: 'center',
+              flexWrap: 'wrap'
+            }}>
+              <Link 
+                to="/acadia-itinerary"
+                style={{
+                  background: 'linear-gradient(90deg, #a68a64, #b99b74)',
+                  color: 'white',
+                  padding: '0.75rem 2rem',
+                  borderRadius: '0.5rem',
+                  textDecoration: 'none',
+                  fontWeight: '600',
+                  display: 'inline-block',
+                  boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
+                  transition: 'all 0.3s ease'
+                }}
+                onMouseEnter={(e) => {
+                  e.target.style.transform = 'translateY(-2px)';
+                  e.target.style.boxShadow = '0 8px 15px -3px rgba(0, 0, 0, 0.1)';
+                }}
+                onMouseLeave={(e) => {
+                  e.target.style.transform = 'translateY(0)';
+                  e.target.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)';
+                }}
+              >
+                View Complete Acadia Itinerary →
+              </Link>
+              <a 
+                href="https://www.nps.gov/acad/index.htm"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  background: 'linear-gradient(90deg, #a68a64, #b99b74)',
+                  color: 'white',
+                  padding: '0.75rem 2rem',
+                  borderRadius: '0.5rem',
+                  textDecoration: 'none',
+                  fontWeight: '600',
+                  display: 'inline-block',
+                  boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
+                  transition: 'all 0.3s ease'
+                }}
+                onMouseEnter={(e) => {
+                  e.target.style.transform = 'translateY(-2px)';
+                  e.target.style.boxShadow = '0 8px 15px -3px rgba(0, 0, 0, 0.1)';
+                }}
+                onMouseLeave={(e) => {
+                  e.target.style.transform = 'translateY(0)';
+                  e.target.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)';
+                }}
+              >
+                Official NPS Site ↗
+              </a>
+            </div>
           </section>
         </main>
 

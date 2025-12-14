@@ -36,10 +36,10 @@ const MammothCaveReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#059669',
+              color: '#6b7280',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #22c55e',
+              borderBottom: '3px solid #9ca3af',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights

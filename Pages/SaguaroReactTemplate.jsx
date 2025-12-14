@@ -11,7 +11,7 @@ const SaguaroReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #dc2626, #f59e0b)',
+        background: 'linear-gradient(135deg, #16a34a, #22c55e)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const SaguaroReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#dc2626',
+              color: '#16a34a',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #f59e0b',
+              borderBottom: '3px solid #22c55e',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -55,39 +55,39 @@ const SaguaroReactTemplate = () => {
               margin: '1.5rem 0'
             }}>
               <div style={{
-                background: '#f9fafb',
+                background: 'linear-gradient(135deg, #dcfce7, #bbf7d0)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #e5e7eb'
+                border: '1px solid #4ade80'
               }}>
-                <h3 style={{ color: '#b91c1c', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🌵 Perfect Desert Weather</h3>
+                <h3 style={{ color: '#16a34a', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🌵 Perfect Desert Weather</h3>
                 <p>Enjoy ideal hiking temperatures (60-75°F) instead of summer's dangerous 115°F+ heat. Experience stunning sunrises and sunsets in comfortable conditions.</p>
               </div>
               <div style={{
-                background: '#f9fafb',
+                background: 'linear-gradient(135deg, #dcfce7, #bbf7d0)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #e5e7eb'
+                border: '1px solid #4ade80'
               }}>
-                <h3 style={{ color: '#b91c1c', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>💰 Significant Savings</h3>
+                <h3 style={{ color: '#16a34a', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>💰 Significant Savings</h3>
                 <p>Save up to 50% on Tucson area accommodations and discover local deals unavailable during peak spring season.</p>
               </div>
               <div style={{
-                background: '#f9fafb',
+                background: 'linear-gradient(135deg, #dcfce7, #bbf7d0)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #e5e7eb'
+                border: '1px solid #4ade80'
               }}>
-                <h3 style={{ color: '#b91c1c', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>📸 Stunning Photography</h3>
+                <h3 style={{ color: '#16a34a', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>📸 Stunning Photography</h3>
                 <p>Capture the iconic saguaro cacti without crowds, plus amazing golden hour lighting and clear desert skies perfect for astrophotography.</p>
               </div>
               <div style={{
-                background: '#f9fafb',
+                background: 'linear-gradient(135deg, #dcfce7, #bbf7d0)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #e5e7eb'
+                border: '1px solid #4ade80'
               }}>
-                <h3 style={{ color: '#b91c1c', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🦎 Desert Wildlife Viewing</h3>
+                <h3 style={{ color: '#16a34a', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🦎 Desert Wildlife Viewing</h3>
                 <p>Active season for javelinas, coyotes, and desert birds. Morning hours offer the best wildlife viewing when animals are most active.</p>
               </div>
             </div>

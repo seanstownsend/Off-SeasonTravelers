@@ -11,7 +11,7 @@ const RockyMountainReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #7c2d12, #ea580c)',
+        background: 'linear-gradient(135deg, #92400e, #b45309)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const RockyMountainReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#7c2d12',
+              color: '#92400e',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #ea580c',
+              borderBottom: '3px solid #b45309',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -56,12 +56,12 @@ const RockyMountainReactTemplate = () => {
             }}>
               {/* Highlight 1 */}
               <div style={{
-                background: 'linear-gradient(135deg, #fff7ed, #fed7aa)',
+                background: 'linear-gradient(135deg, #fef3c7, #fde68a)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #fdba74'
+                border: '1px solid #f59e0b'
               }}>
-                <h3 style={{ color: '#7c2d12', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#a16207', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🍂 Golden Aspen Displays
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -71,12 +71,12 @@ const RockyMountainReactTemplate = () => {
 
               {/* Highlight 2 */}
               <div style={{
-                background: 'linear-gradient(135deg, #fff7ed, #fed7aa)',
+                background: 'linear-gradient(135deg, #fef3c7, #fde68a)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #fdba74'
+                border: '1px solid #f59e0b'
               }}>
-                <h3 style={{ color: '#7c2d12', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#a16207', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🏔️ Alpine Lake Serenity
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -86,12 +86,12 @@ const RockyMountainReactTemplate = () => {
 
               {/* Highlight 3 */}
               <div style={{
-                background: 'linear-gradient(135deg, #fff7ed, #fed7aa)',
+                background: 'linear-gradient(135deg, #fef3c7, #fde68a)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #fdba74'
+                border: '1px solid #f59e0b'
               }}>
-                <h3 style={{ color: '#7c2d12', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#a16207', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🦌 Wildlife Activity
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>

@@ -655,23 +655,18 @@ export default function NationalParks() {
         {/* Month Filter */}
         <div className="bg-white rounded-lg border p-6 mb-8">
           <h2 className="text-lg font-semibold mb-4">Filter by Month</h2>
-          <div className="flex flex-wrap gap-3">
+          <div className="month-bar">
             {months.map((month) => (
-              <button
+              <a
                 key={month.value || 'all'}
                 onClick={() => {
                   console.log('🎯 Setting selected month to:', month.value);
                   setSelectedMonth(month.value);
                 }}
-                className={`px-4 py-2 rounded-lg border-2 transition-all duration-300 ${
-                  selectedMonth === month.value
-                    ? "text-white border-green-600"
-                    : "bg-white text-gray-700 border-gray-200 hover:border-gray-300"
-                }`}
-                style={selectedMonth === month.value ? {background: "linear-gradient(90deg, #15803d, #22c55e)"} : {}}
+                className={`month-btn ${month.value} ${selectedMonth === month.value ? 'active' : ''}`}
               >
                 {month.label}
-              </button>
+              </a>
             ))}
           </div>
         </div>
@@ -714,7 +709,7 @@ export default function NationalParks() {
           {filteredDestinations.map((park) => (
             <div key={park.id} className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
               {/* Header */}
-              <div className="p-6 text-white" style={{background: "linear-gradient(90deg, #15803d, #22c55e)"}}>
+              <div className="p-6 text-white" style={{background: "linear-gradient(90deg, #2f3e46, #354f52)"}}>
                 <div className="flex items-start justify-between">
                   <div>
                     <h3 className="text-xl font-bold mb-2 text-white">{park.name}</h3>
@@ -752,7 +747,7 @@ export default function NationalParks() {
                   <h4 className="text-sm font-semibold text-gray-900 mb-2">Key Features:</h4>
                   <div className="flex flex-wrap gap-2">
                     {park.features.map((feature, index) => (
-                      <span key={index} className="bg-green-50 text-green-700 text-xs px-2 py-1 rounded-full">
+                      <span key={index} className="text-xs px-2 py-1 rounded-full" style={{background: "rgba(166, 138, 100, 0.1)", color: "#a68a64"}}>
                         {feature}
                       </span>
                     ))}
@@ -771,7 +766,7 @@ export default function NationalParks() {
                   <h4 className="text-sm font-semibold text-gray-900 mb-2">Best Off-Season Months:</h4>
                   <div className="flex flex-wrap gap-2">
                     {park.bestOffSeasonMonths.map((month, index) => (
-                      <span key={index} className="bg-blue-50 text-blue-700 text-xs px-2 py-1 rounded-full capitalize">
+                      <span key={index} className="text-xs px-2 py-1 rounded-full capitalize" style={{background: "rgba(47, 62, 70, 0.1)", color: "#2f3e46"}}>
                         {month}
                       </span>
                     ))}
@@ -786,7 +781,7 @@ export default function NationalParks() {
                       <Link 
                         to={templateUrl}
                         className="w-full text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center text-center block" 
-                        style={{background: "linear-gradient(90deg, #15803d, #22c55e)"}}
+                        style={{background: "linear-gradient(90deg, #a68a64, #b99b74)"}}
                       >
                         <span>Explore {park.name}</span>
                         <ArrowRight className="w-4 h-4 ml-2" />

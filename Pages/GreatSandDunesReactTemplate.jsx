@@ -11,7 +11,7 @@ const GreatSandDunesReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #f59e0b, #d97706)',
+        background: 'linear-gradient(135deg, #d97706, #f59e0b)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -55,7 +55,7 @@ const GreatSandDunesReactTemplate = () => {
               marginBottom: '2rem'
             }}>
               <div style={{
-                background: '#fef3c7',
+                background: 'linear-gradient(135deg, #fef3c7, #fde68a)',
                 padding: '1.5rem',
                 borderRadius: '0.5rem',
                 border: '1px solid #f59e0b'
@@ -65,7 +65,7 @@ const GreatSandDunesReactTemplate = () => {
               </div>
               
               <div style={{
-                background: '#fef3c7',
+                background: 'linear-gradient(135deg, #fef3c7, #fde68a)',
                 padding: '1.5rem',
                 borderRadius: '0.5rem',
                 border: '1px solid #f59e0b'
@@ -75,7 +75,7 @@ const GreatSandDunesReactTemplate = () => {
               </div>
               
               <div style={{
-                background: '#fef3c7',
+                background: 'linear-gradient(135deg, #fef3c7, #fde68a)',
                 padding: '1.5rem',
                 borderRadius: '0.5rem',
                 border: '1px solid #f59e0b'

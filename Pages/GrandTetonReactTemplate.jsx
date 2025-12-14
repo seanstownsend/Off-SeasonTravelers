@@ -11,7 +11,7 @@ const GrandTetonReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #1e3a8a, #3730a3)',
+        background: 'linear-gradient(135deg, #556f7a, #6b8088)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',

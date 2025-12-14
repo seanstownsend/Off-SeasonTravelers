@@ -11,7 +11,7 @@ const GreatSmokyMountainsReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #065f46, #10b981)',
+        background: 'linear-gradient(135deg, #b45309, #d97706)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const GreatSmokyMountainsReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#065f46',
+              color: '#b45309',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #10b981',
+              borderBottom: '3px solid #d97706',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -56,12 +56,12 @@ const GreatSmokyMountainsReactTemplate = () => {
             }}>
               {/* Highlight 1 */}
               <div style={{
-                background: 'linear-gradient(135deg, #f0fdf4, #dcfce7)',
+                background: 'linear-gradient(135deg, #fff7ed, #ffedd5)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #86efac'
+                border: '1px solid #fdba74'
               }}>
-                <h3 style={{ color: '#065f46', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#ea580c', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🍂 Spectacular Fall Foliage
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -71,12 +71,12 @@ const GreatSmokyMountainsReactTemplate = () => {
 
               {/* Highlight 2 */}
               <div style={{
-                background: 'linear-gradient(135deg, #f0fdf4, #dcfce7)',
+                background: 'linear-gradient(135deg, #fff7ed, #ffedd5)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #86efac'
+                border: '1px solid #fdba74'
               }}>
-                <h3 style={{ color: '#065f46', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#ea580c', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🌸 Spring Wildflower Blooms
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -86,12 +86,12 @@ const GreatSmokyMountainsReactTemplate = () => {
 
               {/* Highlight 3 */}
               <div style={{
-                background: 'linear-gradient(135deg, #f0fdf4, #dcfce7)',
+                background: 'linear-gradient(135deg, #fff7ed, #ffedd5)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #86efac'
+                border: '1px solid #fdba74'
               }}>
-                <h3 style={{ color: '#065f46', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#ea580c', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🐻 Wildlife Viewing Opportunities
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>

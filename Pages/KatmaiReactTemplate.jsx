@@ -11,7 +11,7 @@ const KatmaiReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #b91c1c, #dc2626)',
+        background: 'linear-gradient(135deg, #c0703f, #d1814d)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const KatmaiReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#b91c1c',
+              color: '#a16207',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #dc2626',
+              borderBottom: '3px solid #d97706',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights

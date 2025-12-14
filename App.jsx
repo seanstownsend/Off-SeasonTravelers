@@ -7,6 +7,7 @@ import { useAuth } from './hooks/useAuth.js'
 import Layout from './layout.jsx'
 import Home from './Pages/Home_Minimal.jsx'
 import ByLocation from './Pages/ByLocation_Fixed.jsx'
+import PlanningTools from './Pages/PlanningTools.jsx'
 import ByMonth from './Pages/ByMonth_Fixed.jsx'
 import NationalParks from './Pages/NationalParks_Simple.jsx'
 import MapExplore from './Pages/MapExplore_Fixed.jsx'
@@ -163,6 +164,11 @@ function AppContent() {
           <Route path="/by-location" element={
             <Layout currentPageName="By Location">
               <ByLocation />
+            </Layout>
+          } />
+          <Route path="/planning-tools" element={
+            <Layout currentPageName="Planning Tools">
+              <PlanningTools />
             </Layout>
           } />
           <Route path="/by-month" element={

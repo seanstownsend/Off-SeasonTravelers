@@ -11,7 +11,7 @@ const CarlsbadCavernsReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #374151, #6b7280)',
+        background: 'linear-gradient(135deg, #6f6349, #7d7157)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -333,7 +333,7 @@ const CarlsbadCavernsReactTemplate = () => {
             <a 
               href="/carlsbad-caverns-itinerary"
               style={{
-                background: 'linear-gradient(135deg, #374151, #6b7280)',
+                background: 'linear-gradient(135deg, #6b7280, #9ca3af)',
                 color: 'white',
                 padding: '0.75rem 2rem',
                 borderRadius: '0.5rem',

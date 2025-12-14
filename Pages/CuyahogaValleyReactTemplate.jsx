@@ -11,7 +11,7 @@ const CuyahogaValleyReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #059669, #22c55e)',
+        background: 'linear-gradient(135deg, #6b7280, #4b5563)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const CuyahogaValleyReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#059669',
+              color: '#6b7280',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #22c55e',
+              borderBottom: '3px solid #9ca3af',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -60,7 +60,7 @@ const CuyahogaValleyReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#047857', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🚴 Towpath Trail Paradise</h3>
+                <h3 style={{ color: '#6b7280', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🚴 Towpath Trail Paradise</h3>
                 <p>Enjoy the 20-mile Towpath Trail without summer crowds - perfect weather for biking and walking along the historic canal.</p>
               </div>
               <div style={{
@@ -69,7 +69,7 @@ const CuyahogaValleyReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#047857', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🚂 Scenic Railroad Magic</h3>
+                <h3 style={{ color: '#6b7280', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>🚂 Scenic Railroad Magic</h3>
                 <p>Experience the Cuyahoga Valley Scenic Railroad with stunning fall foliage views and comfortable temperatures for outdoor seating.</p>
               </div>
               <div style={{
@@ -78,7 +78,7 @@ const CuyahogaValleyReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#047857', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>💦 Brandywine Falls Serenity</h3>
+                <h3 style={{ color: '#6b7280', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>💦 Brandywine Falls Serenity</h3>
                 <p>Visit Ohio's most famous waterfall in peaceful solitude - perfect for photography without summer tourist crowds.</p>
               </div>
               <div style={{
@@ -87,7 +87,7 @@ const CuyahogaValleyReactTemplate = () => {
                 borderRadius: '0.75rem',
                 border: '1px solid #e5e7eb'
               }}>
-                <h3 style={{ color: '#047857', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>💰 Ohio Value</h3>
+                <h3 style={{ color: '#6b7280', fontSize: '1.3rem', margin: '0 0 1rem 0' }}>💰 Ohio Value</h3>
                 <p>Save on accommodations in Akron and Peninsula. Off-season rates can be 30-50% lower than peak summer prices.</p>
               </div>
             </div>

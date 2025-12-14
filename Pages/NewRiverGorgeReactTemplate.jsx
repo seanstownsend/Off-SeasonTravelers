@@ -11,7 +11,7 @@ const NewRiverGorgeReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #0891b2, #06b6d4)',
+        background: 'linear-gradient(135deg, #4f6873, #5d7681)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const NewRiverGorgeReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#0891b2',
+              color: '#8b4513',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #06b6d4',
+              borderBottom: '3px solid #a0522d',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights

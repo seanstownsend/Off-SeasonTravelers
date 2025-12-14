@@ -36,10 +36,10 @@ const RedwoodsReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#166534',
+              color: '#059669',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #15803d',
+              borderBottom: '3px solid #10b981',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights

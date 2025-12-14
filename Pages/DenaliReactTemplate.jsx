@@ -11,7 +11,7 @@ const DenaliReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #1e40af, #3b82f6)',
+        background: 'linear-gradient(135deg, #475569, #334155)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
@@ -36,10 +36,10 @@ const DenaliReactTemplate = () => {
           {/* Off-Season Highlights Section */}
           <section style={{ marginBottom: '3rem' }}>
             <h2 style={{
-              color: '#1e40af',
+              color: '#475569',
               fontSize: '1.8rem',
               marginBottom: '1.5rem',
-              borderBottom: '3px solid #3b82f6',
+              borderBottom: '3px solid #64748b',
               paddingBottom: '0.5rem'
             }}>
               Off-Season Highlights
@@ -56,12 +56,12 @@ const DenaliReactTemplate = () => {
             }}>
               {/* Highlight 1 */}
               <div style={{
-                background: 'linear-gradient(135deg, #eff6ff, #dbeafe)',
+                background: 'linear-gradient(135deg, #f8fafc, #f1f5f9)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #93c5fd'
+                border: '1px solid #cbd5e1'
               }}>
-                <h3 style={{ color: '#1e40af', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#475569', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🏔️ North America's Highest Peak
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -71,12 +71,12 @@ const DenaliReactTemplate = () => {
 
               {/* Highlight 2 */}
               <div style={{
-                background: 'linear-gradient(135deg, #eff6ff, #dbeafe)',
+                background: 'linear-gradient(135deg, #f8fafc, #f1f5f9)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #93c5fd'
+                border: '1px solid #cbd5e1'
               }}>
-                <h3 style={{ color: '#1e40af', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#475569', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🌌 Northern Lights Viewing
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -86,12 +86,12 @@ const DenaliReactTemplate = () => {
 
               {/* Highlight 3 */}
               <div style={{
-                background: 'linear-gradient(135deg, #eff6ff, #dbeafe)',
+                background: 'linear-gradient(135deg, #f8fafc, #f1f5f9)',
                 padding: '1.5rem',
                 borderRadius: '0.75rem',
-                border: '1px solid #93c5fd'
+                border: '1px solid #cbd5e1'
               }}>
-                <h3 style={{ color: '#1e40af', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
+                <h3 style={{ color: '#475569', fontSize: '1.2rem', marginBottom: '0.75rem' }}>
                   🐻 Wildlife Migration
                 </h3>
                 <p style={{ color: '#475569', lineHeight: '1.6' }}>
@@ -333,7 +333,7 @@ const DenaliReactTemplate = () => {
             <a 
               href="/denali-itinerary"
               style={{
-                background: 'linear-gradient(135deg, #1e40af, #3b82f6)',
+                background: 'linear-gradient(135deg, #475569, #64748b)',
                 color: 'white',
                 padding: '0.75rem 2rem',
                 borderRadius: '0.5rem',

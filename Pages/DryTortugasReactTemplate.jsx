@@ -11,7 +11,7 @@ const DryTortugasReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #0369a1, #0284c7)',
+        background: 'linear-gradient(135deg, #4e665a, #5c7468)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',

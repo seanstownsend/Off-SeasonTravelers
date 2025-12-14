@@ -11,7 +11,7 @@ const KingsCanyonReactTemplate = () => {
     <div style={{ fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>
       {/* Header Section */}
       <header style={{
-        background: 'linear-gradient(135deg, #059669, #10B981)',
+        background: 'linear-gradient(135deg, #7a8f6a, #88a078)',
         color: 'white',
         padding: '2rem 0',
         textAlign: 'center',
